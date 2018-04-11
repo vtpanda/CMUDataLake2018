@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="POST" action = "{% url 'dashhome' %}">
+<select name = "tablename">
+    <option value = "reported_events">reported_events</option>
+    <option value = "browse_conditions">browse_conditions</option>
+    <option value = "browse_interventions">browse_interventions</option>
+</select>
+    <button value ="submit">submit</button>
+    {% csrf_token %}
+</form>
+
+<p>result:</p>
+
+{% for row in rows %}
+<p> {{ row}} </p>
+{% endfor %}
+
+</body>
+</html>
