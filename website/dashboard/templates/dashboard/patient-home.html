@@ -105,12 +105,32 @@
         {% csrf_token %}
     </form>
 
-    <p>result:</p>
+<br><br><br>
+{% if show %}
+<p>table name: {{tablename}}</p>
 
-    {% for row in rows %}
-        <p> {{ row }} </p>
+<table border="1">
+  <tr>
+   {% for columnname in columnNames %}
+        <th>  {{columnname}}</th>
     {% endfor %}
-
+  </tr>
+    {% for attributes in attributeLine %}
+    <tr>
+        {% for row in attributes %}
+        <th>  {{row}}</th>
+        {% endfor %}
+  </tr>
+    {% endfor %}
+    {% endif %}
+</table>
 {% endblock %}
+
+
+
+
+
+
+
 
 
