@@ -1,11 +1,18 @@
 from django.shortcuts import render
 from pyathena import connect
-#table: browse_condition(healthy), eligibilities(gender), countries(country), age(optional),
+
+
+def index(request):
+    return render(request, 'dashboard/index.html')
+
+
+# table: browse_condition(healthy), eligibilities(gender), countries(country), age(optional),
 def connectAthena(request, tablename):
-    cursor = connect(aws_access_key_id='AKIAICRP6ONOPQ2DH2EA',
-                 aws_secret_access_key='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',
-                 s3_staging_dir='s3://aws-athena-query-results-565635975808-us-east-2/',
-                 region_name='us-east-2').cursor()
+    cursor = connect(aws_access_key_id='',
+                     aws_secret_access_key='',
+                     s3_staging_dir='',
+                     region_name='us-east-2').cursor()
+
     query = "select * from clinic." + tablename + " limit 10"
     print(query)
     cursor.execute(query)
@@ -13,17 +20,25 @@ def connectAthena(request, tablename):
     for row in cursor:
         rows.append(row)
         rows.append("\n")
-    context = {'rows' : rows}
-    return render(request, 'home.html', context)
+    context = {'rows': rows}
+    return render(request, 'dashboard/patient-home.html', context)
+
+
 # Create your views here.
 def home(request):
     if request.method == "GET":
-        return render(request, 'home.html',{})
+        return render(request, 'dashboard/patient-home.html', {})
     if request.method == 'POST':
         tablename = request.POST['tablename']
+<<<<<<< HEAD
         cursor = connect(aws_access_key_id='AKIAJWQTLCSUAX4ZAO6A',
                          aws_secret_access_key='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',
                          s3_staging_dir='s3://aws-athena-query-results-565635975808-us-east-2/',
+=======
+        cursor = connect(aws_access_key_id='',
+                         aws_secret_access_key='',
+                         s3_staging_dir='',
+>>>>>>> 5ac5c4821378081ecbd99c4c29a8584e97dfdef7
                          region_name='us-east-2').cursor()
         query = "select * from clinic." + tablename + " limit 10"
         print(query)
@@ -33,5 +48,4 @@ def home(request):
             rows.append(row)
             rows.append("\n")
         context = {'rows': rows}
-        return render(request, 'home.html', context)
-
+        return render(request, 'dashboard/patient-home.html', context)
