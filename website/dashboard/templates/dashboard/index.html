@@ -1,0 +1,18 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+
+{% block body %}
+    <div class="usercase row align-items-center">
+        <div class="col text-center">
+            <a href="{% url 'dashboard:dashhome' %}">
+                <img src="{% static 'dashboard/images/patient.png' %}" class="rounded" alt="Patient" border="5">
+            </a>
+        </div>
+        <div class="col text-center">
+            <img src="{% static 'dashboard/images/institute.png' %}" class="rounded" alt="Institute">
+        </div>
+        <div class="col text-center">
+            <img src="{% static 'dashboard/images/sponsor.png' %}" class="rounded" alt="Sponsor">
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,154 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+
+{% block body %}
+        <form class="mt-4" method="post" action="{% url 'dashboard:dashhome' %}">
+        <span>Personal Information</span>
+        <hr>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationTooltip02">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Gender</label>
+                    <select class="form-control" id="exampleFormControlSelect1" name="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationTooltip04">Birth Date</label>
+                <input type="text" class="form-control" id="validationTooltip04" placeholder="MM / DD / YYYY" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="exampleFormControlSelect1">Health Condition</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="health_condition">
+                    <option>acute pain</option>
+                    <option>hiv infections</option>
+                    <option>hepatitis b</option>
+                    <option>amnesia</option>
+                    <option>muscle weakness</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+                <label for="validationTooltip07">City</label>
+                <input type="text" class="form-control" id="validationTooltip07" placeholder="City" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationTooltip08">State</label>
+                <input type="text" class="form-control" id="validationTooltip08" placeholder="State" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid state.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Country</label>
+                    <select class="form-control" id="exampleFormControlSelect1" name="country">
+                        <option>United States</option>
+                        <option>France</option>
+                        <option>Canada</option>
+                        <option>Germany</option>
+                        <option>China</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationTooltip05">Zip</label>
+                <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                </div>
+            </div>
+        </div>
+        <div class="form-row mb-4">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+        </div>
+
+        <span>Clinical Trial Information</span>
+        <hr>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="exampleFormControlSelect1">Treatment</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>iodine</option>
+                    <option>antidotes</option>
+                    <option>antipain</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationTooltip01">Number of Sponsors</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="Number of Sponsors"
+                       required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationTooltip02">Number of Facilities</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="Number of Facilities"
+                       required>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        {% csrf_token %}
+    </form>
+
+    <form method="POST" action="{% url 'dashboard:dashhome' %}">
+        <select name="tablename">
+            <option value="reported_events">reported_events</option>
+            <option value="browse_conditions">browse_conditions</option>
+            <option value="browse_interventions">browse_interventions</option>
+        </select>
+        <button value="submit">submit</button>
+        {% csrf_token %}
+    </form>
+
+<br><br><br>
+{% if show %}
+<p>table name: {{tablename}}</p>
+
+<table border="1">
+  <tr>
+   {% for columnname in columnNames %}
+        <th>  {{columnname}}</th>
+    {% endfor %}
+  </tr>
+    {% for attributes in attributeLine %}
+    <tr>
+        {% for row in attributes %}
+        <th>  {{row}}</th>
+        {% endfor %}
+  </tr>
+    {% endfor %}
+    {% endif %}
+</table>
+{% endblock %}
+
+
+
+
+
+
+
+
+
