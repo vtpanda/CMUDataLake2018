@@ -1,4 +1,4 @@
 # TiberSolutions
 Heinz College Capstone Project
 
-![Alt-Text](/images/technology components.PNG)
+![](/images/technology components.PNG)
