@@ -1,0 +1,7420 @@
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 11,
+            "sum": 11,
+            "min": 11
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 0,
+            "sum": 0,
+            "min": 0
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 0,
+            "sum": 0,
+            "min": 0
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 12000,
+            "sum": 12000,
+            "min": 12000
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11000,
+            "sum": 11000,
+            "min": 11000
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 2,
+            "sum": 2,
+            "min": 2
+        }
+    },
+    "EndTime": 1523649126.166429,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "init_train_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner"
+    },
+    "StartTime": 1523649126.166372
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.7948084716796875,
+            "sum": 1.7948084716796875,
+            "min": 1.7948084716796875
+        }
+    },
+    "EndTime": 1523649126.566671,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.566569
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.7694339821555398,
+            "sum": 1.7694339821555398,
+            "min": 1.7694339821555398
+        }
+    },
+    "EndTime": 1523649126.566762,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.566743
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8135205189098011,
+            "sum": 1.8135205189098011,
+            "min": 1.8135205189098011
+        }
+    },
+    "EndTime": 1523649126.566992,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.56697
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8974618141867898,
+            "sum": 1.8974618141867898,
+            "min": 1.8974618141867898
+        }
+    },
+    "EndTime": 1523649126.567177,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.567155
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.231199285333807,
+            "sum": 10.231199285333807,
+            "min": 10.231199285333807
+        }
+    },
+    "EndTime": 1523649126.567363,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.567343
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.486984752308238,
+            "sum": 10.486984752308238,
+            "min": 10.486984752308238
+        }
+    },
+    "EndTime": 1523649126.567629,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.567515
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.519807195490056,
+            "sum": 9.519807195490056,
+            "min": 9.519807195490056
+        }
+    },
+    "EndTime": 1523649126.567705,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.567685
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 8.808413418856533,
+            "sum": 8.808413418856533,
+            "min": 8.808413418856533
+        }
+    },
+    "EndTime": 1523649126.567972,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.567856
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8409030317826705,
+            "sum": 1.8409030317826705,
+            "min": 1.8409030317826705
+        }
+    },
+    "EndTime": 1523649126.568044,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568025
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8375939608487215,
+            "sum": 1.8375939608487215,
+            "min": 1.8375939608487215
+        }
+    },
+    "EndTime": 1523649126.568307,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568193
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8411307484019885,
+            "sum": 1.8411307484019885,
+            "min": 1.8411307484019885
+        }
+    },
+    "EndTime": 1523649126.568386,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568367
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8535149813565341,
+            "sum": 1.8535149813565341,
+            "min": 1.8535149813565341
+        }
+    },
+    "EndTime": 1523649126.568463,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568429
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.253596857244318,
+            "sum": 9.253596857244318,
+            "min": 9.253596857244318
+        }
+    },
+    "EndTime": 1523649126.568527,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.56851
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.471292658025568,
+            "sum": 10.471292658025568,
+            "min": 10.471292658025568
+        }
+    },
+    "EndTime": 1523649126.568585,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568569
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.372655095880681,
+            "sum": 10.372655095880681,
+            "min": 10.372655095880681
+        }
+    },
+    "EndTime": 1523649126.568641,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568626
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.399083251953124,
+            "sum": 9.399083251953124,
+            "min": 9.399083251953124
+        }
+    },
+    "EndTime": 1523649126.568725,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568708
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5617436745383522,
+            "sum": 1.5617436745383522,
+            "min": 1.5617436745383522
+        }
+    },
+    "EndTime": 1523649126.568782,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568766
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.6303195467862215,
+            "sum": 1.6303195467862215,
+            "min": 1.6303195467862215
+        }
+    },
+    "EndTime": 1523649126.568837,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568822
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5657987448952415,
+            "sum": 1.5657987448952415,
+            "min": 1.5657987448952415
+        }
+    },
+    "EndTime": 1523649126.568892,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568877
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5924234008789062,
+            "sum": 1.5924234008789062,
+            "min": 1.5924234008789062
+        }
+    },
+    "EndTime": 1523649126.568946,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568932
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.0319177024147725,
+            "sum": 5.0319177024147725,
+            "min": 5.0319177024147725
+        }
+    },
+    "EndTime": 1523649126.569002,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.568987
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 4.195777432528409,
+            "sum": 4.195777432528409,
+            "min": 4.195777432528409
+        }
+    },
+    "EndTime": 1523649126.569057,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569042
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 4.693450106534091,
+            "sum": 4.693450106534091,
+            "min": 4.693450106534091
+        }
+    },
+    "EndTime": 1523649126.569111,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569096
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.45871044921875,
+            "sum": 5.45871044921875,
+            "min": 5.45871044921875
+        }
+    },
+    "EndTime": 1523649126.569164,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569149
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5026351040926846,
+            "sum": 1.5026351040926846,
+            "min": 1.5026351040926846
+        }
+    },
+    "EndTime": 1523649126.569218,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569203
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5082956820401279,
+            "sum": 1.5082956820401279,
+            "min": 1.5082956820401279
+        }
+    },
+    "EndTime": 1523649126.569271,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569257
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5592778764204545,
+            "sum": 1.5592778764204545,
+            "min": 1.5592778764204545
+        }
+    },
+    "EndTime": 1523649126.569325,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.56931
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.5296712646484374,
+            "sum": 1.5296712646484374,
+            "min": 1.5296712646484374
+        }
+    },
+    "EndTime": 1523649126.569376,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569362
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.3919835316051135,
+            "sum": 2.3919835316051135,
+            "min": 2.3919835316051135
+        }
+    },
+    "EndTime": 1523649126.569432,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569418
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.5330502818714487,
+            "sum": 2.5330502818714487,
+            "min": 2.5330502818714487
+        }
+    },
+    "EndTime": 1523649126.569485,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569471
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.4392156704989345,
+            "sum": 2.4392156704989345,
+            "min": 2.4392156704989345
+        }
+    },
+    "EndTime": 1523649126.569541,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569526
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.4878282581676134,
+            "sum": 2.4878282581676134,
+            "min": 2.4878282581676134
+        }
+    },
+    "EndTime": 1523649126.569597,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.569581
+}
+
+[04/13/2018 19:52:06 INFO 139768181839680] Epoch 1: Loss improved. Updating best model
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 24,
+            "sum": 24,
+            "min": 24
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 23673,
+            "sum": 23673,
+            "min": 23673
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 3,
+            "sum": 3,
+            "min": 3
+        }
+    },
+    "EndTime": 1523649126.571494,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 0
+    },
+    "StartTime": 1523649126.571452
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.109429648659446,
+            "sum": 1.109429648659446,
+            "min": 1.109429648659446
+        }
+    },
+    "EndTime": 1523649126.947368,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947303
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0969309248490766,
+            "sum": 1.0969309248490766,
+            "min": 1.0969309248490766
+        }
+    },
+    "EndTime": 1523649126.947447,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947433
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0859029263583098,
+            "sum": 1.0859029263583098,
+            "min": 1.0859029263583098
+        }
+    },
+    "EndTime": 1523649126.947498,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947487
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.1152717340642755,
+            "sum": 1.1152717340642755,
+            "min": 1.1152717340642755
+        }
+    },
+    "EndTime": 1523649126.947541,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947532
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.398291148792614,
+            "sum": 10.398291148792614,
+            "min": 10.398291148792614
+        }
+    },
+    "EndTime": 1523649126.947572,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947564
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.853246226917614,
+            "sum": 9.853246226917614,
+            "min": 9.853246226917614
+        }
+    },
+    "EndTime": 1523649126.947612,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947599
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.215785955255681,
+            "sum": 9.215785955255681,
+            "min": 9.215785955255681
+        }
+    },
+    "EndTime": 1523649126.947663,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947649
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.782928355823863,
+            "sum": 9.782928355823863,
+            "min": 9.782928355823863
+        }
+    },
+    "EndTime": 1523649126.947715,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947702
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0992345359108664,
+            "sum": 1.0992345359108664,
+            "min": 1.0992345359108664
+        }
+    },
+    "EndTime": 1523649126.947769,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947754
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0989024769176137,
+            "sum": 1.0989024769176137,
+            "min": 1.0989024769176137
+        }
+    },
+    "EndTime": 1523649126.947824,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947809
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.115092440518466,
+            "sum": 1.115092440518466,
+            "min": 1.115092440518466
+        }
+    },
+    "EndTime": 1523649126.947879,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947864
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.1306101240678268,
+            "sum": 1.1306101240678268,
+            "min": 1.1306101240678268
+        }
+    },
+    "EndTime": 1523649126.947938,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947922
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.320814719460227,
+            "sum": 9.320814719460227,
+            "min": 9.320814719460227
+        }
+    },
+    "EndTime": 1523649126.947987,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.947976
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.269826171875,
+            "sum": 10.269826171875,
+            "min": 10.269826171875
+        }
+    },
+    "EndTime": 1523649126.948038,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948023
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 10.002349875710227,
+            "sum": 10.002349875710227,
+            "min": 10.002349875710227
+        }
+    },
+    "EndTime": 1523649126.948092,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948077
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.418433061079545,
+            "sum": 9.418433061079545,
+            "min": 9.418433061079545
+        }
+    },
+    "EndTime": 1523649126.948147,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948131
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0079590676047585,
+            "sum": 1.0079590676047585,
+            "min": 1.0079590676047585
+        }
+    },
+    "EndTime": 1523649126.948202,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948187
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0294658258611507,
+            "sum": 1.0294658258611507,
+            "min": 1.0294658258611507
+        }
+    },
+    "EndTime": 1523649126.948252,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948242
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0189147005948154,
+            "sum": 1.0189147005948154,
+            "min": 1.0189147005948154
+        }
+    },
+    "EndTime": 1523649126.9483,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948285
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0177086403586648,
+            "sum": 1.0177086403586648,
+            "min": 1.0177086403586648
+        }
+    },
+    "EndTime": 1523649126.948355,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.94834
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 3.0287857776988636,
+            "sum": 3.0287857776988636,
+            "min": 3.0287857776988636
+        }
+    },
+    "EndTime": 1523649126.948409,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948394
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.9081957785866477,
+            "sum": 2.9081957785866477,
+            "min": 2.9081957785866477
+        }
+    },
+    "EndTime": 1523649126.948463,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948448
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 3.148586115056818,
+            "sum": 3.148586115056818,
+            "min": 3.148586115056818
+        }
+    },
+    "EndTime": 1523649126.94852,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948504
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 3.340366677024148,
+            "sum": 3.340366677024148,
+            "min": 3.340366677024148
+        }
+    },
+    "EndTime": 1523649126.948569,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948555
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0429060502485796,
+            "sum": 1.0429060502485796,
+            "min": 1.0429060502485796
+        }
+    },
+    "EndTime": 1523649126.948623,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948607
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0362441905628552,
+            "sum": 1.0362441905628552,
+            "min": 1.0362441905628552
+        }
+    },
+    "EndTime": 1523649126.948721,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948702
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0475643643465908,
+            "sum": 1.0475643643465908,
+            "min": 1.0475643643465908
+        }
+    },
+    "EndTime": 1523649126.948792,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948774
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0449609818892045,
+            "sum": 1.0449609818892045,
+            "min": 1.0449609818892045
+        }
+    },
+    "EndTime": 1523649126.948854,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948838
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2686476606889205,
+            "sum": 1.2686476606889205,
+            "min": 1.2686476606889205
+        }
+    },
+    "EndTime": 1523649126.948911,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.948897
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.302063232421875,
+            "sum": 1.302063232421875,
+            "min": 1.302063232421875
+        }
+    },
+    "EndTime": 1523649126.948965,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.94895
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3006659712357955,
+            "sum": 1.3006659712357955,
+            "min": 1.3006659712357955
+        }
+    },
+    "EndTime": 1523649126.949021,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.949005
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.294868613503196,
+            "sum": 1.294868613503196,
+            "min": 1.294868613503196
+        }
+    },
+    "EndTime": 1523649126.949074,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649126.94906
+}
+
+[04/13/2018 19:52:06 INFO 139768181839680] Epoch 2: Loss improved. Updating best model
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 36,
+            "sum": 36,
+            "min": 36
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 35346,
+            "sum": 35346,
+            "min": 35346
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 4,
+            "sum": 4,
+            "min": 4
+        }
+    },
+    "EndTime": 1523649126.950333,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 1
+    },
+    "StartTime": 1523649126.950298
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0164582186612217,
+            "sum": 1.0164582186612217,
+            "min": 1.0164582186612217
+        }
+    },
+    "EndTime": 1523649127.270699,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270636
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0087004505504262,
+            "sum": 1.0087004505504262,
+            "min": 1.0087004505504262
+        }
+    },
+    "EndTime": 1523649127.270776,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270763
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0050797674005683,
+            "sum": 1.0050797674005683,
+            "min": 1.0050797674005683
+        }
+    },
+    "EndTime": 1523649127.270828,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270813
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.017736544522372,
+            "sum": 1.017736544522372,
+            "min": 1.017736544522372
+        }
+    },
+    "EndTime": 1523649127.270876,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270861
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.981011052911932,
+            "sum": 6.981011052911932,
+            "min": 6.981011052911932
+        }
+    },
+    "EndTime": 1523649127.270917,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270908
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.523271484375,
+            "sum": 6.523271484375,
+            "min": 6.523271484375
+        }
+    },
+    "EndTime": 1523649127.27095,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270939
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.159107066761363,
+            "sum": 7.159107066761363,
+            "min": 7.159107066761363
+        }
+    },
+    "EndTime": 1523649127.271001,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.270986
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.323469549005682,
+            "sum": 7.323469549005682,
+            "min": 7.323469549005682
+        }
+    },
+    "EndTime": 1523649127.271054,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.27104
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0071932095614347,
+            "sum": 1.0071932095614347,
+            "min": 1.0071932095614347
+        }
+    },
+    "EndTime": 1523649127.271104,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.27109
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0120449884588067,
+            "sum": 1.0120449884588067,
+            "min": 1.0120449884588067
+        }
+    },
+    "EndTime": 1523649127.271157,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271142
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0125742464932528,
+            "sum": 1.0125742464932528,
+            "min": 1.0125742464932528
+        }
+    },
+    "EndTime": 1523649127.271211,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271196
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0172706298828125,
+            "sum": 1.0172706298828125,
+            "min": 1.0172706298828125
+        }
+    },
+    "EndTime": 1523649127.271261,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.27125
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.321713645241477,
+            "sum": 7.321713645241477,
+            "min": 7.321713645241477
+        }
+    },
+    "EndTime": 1523649127.271308,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271295
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.803216264204545,
+            "sum": 7.803216264204545,
+            "min": 7.803216264204545
+        }
+    },
+    "EndTime": 1523649127.271361,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271346
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.564206676136363,
+            "sum": 7.564206676136363,
+            "min": 7.564206676136363
+        }
+    },
+    "EndTime": 1523649127.271416,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.2714
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.372426358309659,
+            "sum": 7.372426358309659,
+            "min": 7.372426358309659
+        }
+    },
+    "EndTime": 1523649127.27147,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271455
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.002133378462358,
+            "sum": 1.002133378462358,
+            "min": 1.002133378462358
+        }
+    },
+    "EndTime": 1523649127.271524,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271509
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0070870860706675,
+            "sum": 1.0070870860706675,
+            "min": 1.0070870860706675
+        }
+    },
+    "EndTime": 1523649127.271582,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271566
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0016448031338778,
+            "sum": 1.0016448031338778,
+            "min": 1.0016448031338778
+        }
+    },
+    "EndTime": 1523649127.271637,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271621
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0082666348544034,
+            "sum": 1.0082666348544034,
+            "min": 1.0082666348544034
+        }
+    },
+    "EndTime": 1523649127.271692,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271677
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.4376759033203124,
+            "sum": 2.4376759033203124,
+            "min": 2.4376759033203124
+        }
+    },
+    "EndTime": 1523649127.271747,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271732
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.2943242742365055,
+            "sum": 2.2943242742365055,
+            "min": 2.2943242742365055
+        }
+    },
+    "EndTime": 1523649127.2718,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271785
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.61868398215554,
+            "sum": 2.61868398215554,
+            "min": 2.61868398215554
+        }
+    },
+    "EndTime": 1523649127.271855,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.27184
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.9681117054332384,
+            "sum": 2.9681117054332384,
+            "min": 2.9681117054332384
+        }
+    },
+    "EndTime": 1523649127.271909,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271894
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0483964011452416,
+            "sum": 1.0483964011452416,
+            "min": 1.0483964011452416
+        }
+    },
+    "EndTime": 1523649127.271963,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.271948
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0444451515891335,
+            "sum": 1.0444451515891335,
+            "min": 1.0444451515891335
+        }
+    },
+    "EndTime": 1523649127.272019,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272004
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.051720048384233,
+            "sum": 1.051720048384233,
+            "min": 1.051720048384233
+        }
+    },
+    "EndTime": 1523649127.272074,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272059
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0385203524502842,
+            "sum": 1.0385203524502842,
+            "min": 1.0385203524502842
+        }
+    },
+    "EndTime": 1523649127.272129,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272114
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2327519697709517,
+            "sum": 1.2327519697709517,
+            "min": 1.2327519697709517
+        }
+    },
+    "EndTime": 1523649127.272183,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272169
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2473231423117899,
+            "sum": 1.2473231423117899,
+            "min": 1.2473231423117899
+        }
+    },
+    "EndTime": 1523649127.272238,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272223
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2708045487837358,
+            "sum": 1.2708045487837358,
+            "min": 1.2708045487837358
+        }
+    },
+    "EndTime": 1523649127.272293,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272278
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2547612970525568,
+            "sum": 1.2547612970525568,
+            "min": 1.2547612970525568
+        }
+    },
+    "EndTime": 1523649127.272348,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.272332
+}
+
+[04/13/2018 19:52:07 INFO 139768181839680] Epoch 3: Loss improved. Updating best model
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 48,
+            "sum": 48,
+            "min": 48
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 47019,
+            "sum": 47019,
+            "min": 47019
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 5,
+            "sum": 5,
+            "min": 5
+        }
+    },
+    "EndTime": 1523649127.273522,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 2
+    },
+    "StartTime": 1523649127.273487
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9752409224076705,
+            "sum": 0.9752409224076705,
+            "min": 0.9752409224076705
+        }
+    },
+    "EndTime": 1523649127.590701,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.590637
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9754092240767045,
+            "sum": 0.9754092240767045,
+            "min": 0.9754092240767045
+        }
+    },
+    "EndTime": 1523649127.59078,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.590767
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9731497636274858,
+            "sum": 0.9731497636274858,
+            "min": 0.9731497636274858
+        }
+    },
+    "EndTime": 1523649127.590835,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.59082
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9742602816495028,
+            "sum": 0.9742602816495028,
+            "min": 0.9742602816495028
+        }
+    },
+    "EndTime": 1523649127.590887,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.590874
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.202958362926136,
+            "sum": 6.202958362926136,
+            "min": 6.202958362926136
+        }
+    },
+    "EndTime": 1523649127.590935,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.590922
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.088633744673295,
+            "sum": 6.088633744673295,
+            "min": 6.088633744673295
+        }
+    },
+    "EndTime": 1523649127.590986,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.590972
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.441533602627841,
+            "sum": 6.441533602627841,
+            "min": 6.441533602627841
+        }
+    },
+    "EndTime": 1523649127.591041,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591026
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.88364501953125,
+            "sum": 7.88364501953125,
+            "min": 7.88364501953125
+        }
+    },
+    "EndTime": 1523649127.591095,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.59108
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9730487726384943,
+            "sum": 0.9730487726384943,
+            "min": 0.9730487726384943
+        }
+    },
+    "EndTime": 1523649127.591157,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591141
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9733292791193182,
+            "sum": 0.9733292791193182,
+            "min": 0.9733292791193182
+        }
+    },
+    "EndTime": 1523649127.591217,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591201
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.972443359375,
+            "sum": 0.972443359375,
+            "min": 0.972443359375
+        }
+    },
+    "EndTime": 1523649127.591275,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.59126
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.974174444025213,
+            "sum": 0.974174444025213,
+            "min": 0.974174444025213
+        }
+    },
+    "EndTime": 1523649127.591331,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591316
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.997475807883522,
+            "sum": 6.997475807883522,
+            "min": 6.997475807883522
+        }
+    },
+    "EndTime": 1523649127.591387,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591373
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.197099920099432,
+            "sum": 7.197099920099432,
+            "min": 7.197099920099432
+        }
+    },
+    "EndTime": 1523649127.591446,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591431
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.036665971235795,
+            "sum": 7.036665971235795,
+            "min": 7.036665971235795
+        }
+    },
+    "EndTime": 1523649127.591499,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591485
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.852827592329546,
+            "sum": 6.852827592329546,
+            "min": 6.852827592329546
+        }
+    },
+    "EndTime": 1523649127.591553,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591538
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9807219127308239,
+            "sum": 0.9807219127308239,
+            "min": 0.9807219127308239
+        }
+    },
+    "EndTime": 1523649127.591607,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591592
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.979799971147017,
+            "sum": 0.979799971147017,
+            "min": 0.979799971147017
+        }
+    },
+    "EndTime": 1523649127.591661,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591646
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9802581343217329,
+            "sum": 0.9802581343217329,
+            "min": 0.9802581343217329
+        }
+    },
+    "EndTime": 1523649127.591715,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.5917
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9804531194513494,
+            "sum": 0.9804531194513494,
+            "min": 0.9804531194513494
+        }
+    },
+    "EndTime": 1523649127.591771,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591756
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.4005778253728693,
+            "sum": 2.4005778253728693,
+            "min": 2.4005778253728693
+        }
+    },
+    "EndTime": 1523649127.591826,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591811
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.1952779430042613,
+            "sum": 2.1952779430042613,
+            "min": 2.1952779430042613
+        }
+    },
+    "EndTime": 1523649127.59188,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591865
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.473363103693182,
+            "sum": 2.473363103693182,
+            "min": 2.473363103693182
+        }
+    },
+    "EndTime": 1523649127.591935,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.59192
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.740657703746449,
+            "sum": 2.740657703746449,
+            "min": 2.740657703746449
+        }
+    },
+    "EndTime": 1523649127.591989,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.591974
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0137038518732244,
+            "sum": 1.0137038518732244,
+            "min": 1.0137038518732244
+        }
+    },
+    "EndTime": 1523649127.592043,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592028
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0159650823419744,
+            "sum": 1.0159650823419744,
+            "min": 1.0159650823419744
+        }
+    },
+    "EndTime": 1523649127.592099,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592084
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.012447315562855,
+            "sum": 1.012447315562855,
+            "min": 1.012447315562855
+        }
+    },
+    "EndTime": 1523649127.592154,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592139
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0129361627752131,
+            "sum": 1.0129361627752131,
+            "min": 1.0129361627752131
+        }
+    },
+    "EndTime": 1523649127.592208,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592193
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3075695301402699,
+            "sum": 1.3075695301402699,
+            "min": 1.3075695301402699
+        }
+    },
+    "EndTime": 1523649127.592263,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592248
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3137157204367897,
+            "sum": 1.3137157204367897,
+            "min": 1.3137157204367897
+        }
+    },
+    "EndTime": 1523649127.592317,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592302
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3330021917169745,
+            "sum": 1.3330021917169745,
+            "min": 1.3330021917169745
+        }
+    },
+    "EndTime": 1523649127.59237,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.592356
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3238576771129262,
+            "sum": 1.3238576771129262,
+            "min": 1.3238576771129262
+        }
+    },
+    "EndTime": 1523649127.592425,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.59241
+}
+
+[04/13/2018 19:52:07 INFO 139768181839680] Epoch 4: Loss improved. Updating best model
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 60,
+            "sum": 60,
+            "min": 60
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 58692,
+            "sum": 58692,
+            "min": 58692
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 6,
+            "sum": 6,
+            "min": 6
+        }
+    },
+    "EndTime": 1523649127.593683,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 3
+    },
+    "StartTime": 1523649127.593649
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9553333629261364,
+            "sum": 0.9553333629261364,
+            "min": 0.9553333629261364
+        }
+    },
+    "EndTime": 1523649127.92673,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.926663
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9555507313121449,
+            "sum": 0.9555507313121449,
+            "min": 0.9555507313121449
+        }
+    },
+    "EndTime": 1523649127.926817,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.926799
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9534223965731534,
+            "sum": 0.9534223965731534,
+            "min": 0.9534223965731534
+        }
+    },
+    "EndTime": 1523649127.926876,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92686
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9563580488725142,
+            "sum": 0.9563580488725142,
+            "min": 0.9563580488725142
+        }
+    },
+    "EndTime": 1523649127.926936,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92692
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.046312344637784,
+            "sum": 6.046312344637784,
+            "min": 6.046312344637784
+        }
+    },
+    "EndTime": 1523649127.927144,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927121
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.715698508522728,
+            "sum": 5.715698508522728,
+            "min": 5.715698508522728
+        }
+    },
+    "EndTime": 1523649127.927208,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927191
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.692055930397728,
+            "sum": 6.692055930397728,
+            "min": 6.692055930397728
+        }
+    },
+    "EndTime": 1523649127.927263,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92725
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.849665172230114,
+            "sum": 7.849665172230114,
+            "min": 7.849665172230114
+        }
+    },
+    "EndTime": 1523649127.927313,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.9273
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9529306585138494,
+            "sum": 0.9529306585138494,
+            "min": 0.9529306585138494
+        }
+    },
+    "EndTime": 1523649127.927362,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927348
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9532723111239346,
+            "sum": 0.9532723111239346,
+            "min": 0.9532723111239346
+        }
+    },
+    "EndTime": 1523649127.92741,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927398
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9537245649857955,
+            "sum": 0.9537245649857955,
+            "min": 0.9537245649857955
+        }
+    },
+    "EndTime": 1523649127.927459,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927446
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9540344460227272,
+            "sum": 0.9540344460227272,
+            "min": 0.9540344460227272
+        }
+    },
+    "EndTime": 1523649127.927507,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927494
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.726713156960227,
+            "sum": 6.726713156960227,
+            "min": 6.726713156960227
+        }
+    },
+    "EndTime": 1523649127.927555,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927542
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.190370694247159,
+            "sum": 7.190370694247159,
+            "min": 7.190370694247159
+        }
+    },
+    "EndTime": 1523649127.927603,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92759
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.77820263671875,
+            "sum": 6.77820263671875,
+            "min": 6.77820263671875
+        }
+    },
+    "EndTime": 1523649127.92765,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927638
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.194685236150568,
+            "sum": 7.194685236150568,
+            "min": 7.194685236150568
+        }
+    },
+    "EndTime": 1523649127.927697,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927686
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9711836214932529,
+            "sum": 0.9711836214932529,
+            "min": 0.9711836214932529
+        }
+    },
+    "EndTime": 1523649127.927745,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927733
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9728483720259233,
+            "sum": 0.9728483720259233,
+            "min": 0.9728483720259233
+        }
+    },
+    "EndTime": 1523649127.927792,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92778
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9711780617453836,
+            "sum": 0.9711780617453836,
+            "min": 0.9711780617453836
+        }
+    },
+    "EndTime": 1523649127.927842,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927829
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9716372403231535,
+            "sum": 0.9716372403231535,
+            "min": 0.9716372403231535
+        }
+    },
+    "EndTime": 1523649127.92789,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927877
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.411927823153409,
+            "sum": 2.411927823153409,
+            "min": 2.411927823153409
+        }
+    },
+    "EndTime": 1523649127.927937,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927925
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.440227383700284,
+            "sum": 2.440227383700284,
+            "min": 2.440227383700284
+        }
+    },
+    "EndTime": 1523649127.927985,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.927973
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.500847478693182,
+            "sum": 2.500847478693182,
+            "min": 2.500847478693182
+        }
+    },
+    "EndTime": 1523649127.928032,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92802
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.5486200949928977,
+            "sum": 2.5486200949928977,
+            "min": 2.5486200949928977
+        }
+    },
+    "EndTime": 1523649127.92808,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928067
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0045840176669034,
+            "sum": 1.0045840176669034,
+            "min": 1.0045840176669034
+        }
+    },
+    "EndTime": 1523649127.928127,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928115
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0053660389293324,
+            "sum": 1.0053660389293324,
+            "min": 1.0053660389293324
+        }
+    },
+    "EndTime": 1523649127.92818,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928166
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.005992365056818,
+            "sum": 1.005992365056818,
+            "min": 1.005992365056818
+        }
+    },
+    "EndTime": 1523649127.928235,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.92822
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0061442926580255,
+            "sum": 1.0061442926580255,
+            "min": 1.0061442926580255
+        }
+    },
+    "EndTime": 1523649127.928288,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928274
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3865723599520596,
+            "sum": 1.3865723599520596,
+            "min": 1.3865723599520596
+        }
+    },
+    "EndTime": 1523649127.928341,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928327
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3962103548916904,
+            "sum": 1.3962103548916904,
+            "min": 1.3962103548916904
+        }
+    },
+    "EndTime": 1523649127.928397,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928382
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3891295055042614,
+            "sum": 1.3891295055042614,
+            "min": 1.3891295055042614
+        }
+    },
+    "EndTime": 1523649127.928452,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928437
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.4011030217950995,
+            "sum": 1.4011030217950995,
+            "min": 1.4011030217950995
+        }
+    },
+    "EndTime": 1523649127.928506,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649127.928492
+}
+
+[04/13/2018 19:52:07 INFO 139768181839680] Epoch 5: Loss improved. Updating best model
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 72,
+            "sum": 72,
+            "min": 72
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 70365,
+            "sum": 70365,
+            "min": 70365
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 7,
+            "sum": 7,
+            "min": 7
+        }
+    },
+    "EndTime": 1523649127.929898,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 4
+    },
+    "StartTime": 1523649127.929864
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9509959883256393,
+            "sum": 0.9509959883256393,
+            "min": 0.9509959883256393
+        }
+    },
+    "EndTime": 1523649128.249335,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249272
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9517233553799715,
+            "sum": 0.9517233553799715,
+            "min": 0.9517233553799715
+        }
+    },
+    "EndTime": 1523649128.249416,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249402
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9489690551757812,
+            "sum": 0.9489690551757812,
+            "min": 0.9489690551757812
+        }
+    },
+    "EndTime": 1523649128.249468,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249455
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9489370450106535,
+            "sum": 0.9489370450106535,
+            "min": 0.9489370450106535
+        }
+    },
+    "EndTime": 1523649128.249511,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249498
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.957995205965909,
+            "sum": 6.957995205965909,
+            "min": 6.957995205965909
+        }
+    },
+    "EndTime": 1523649128.249557,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249547
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.749171875,
+            "sum": 5.749171875,
+            "min": 5.749171875
+        }
+    },
+    "EndTime": 1523649128.249587,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249579
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.648165793678977,
+            "sum": 6.648165793678977,
+            "min": 6.648165793678977
+        }
+    },
+    "EndTime": 1523649128.249634,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249621
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.425678888494319,
+            "sum": 7.425678888494319,
+            "min": 7.425678888494319
+        }
+    },
+    "EndTime": 1523649128.249683,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249669
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.949354453346946,
+            "sum": 0.949354453346946,
+            "min": 0.949354453346946
+        }
+    },
+    "EndTime": 1523649128.24974,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249726
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9499446688565341,
+            "sum": 0.9499446688565341,
+            "min": 0.9499446688565341
+        }
+    },
+    "EndTime": 1523649128.249801,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249786
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.949123895818537,
+            "sum": 0.949123895818537,
+            "min": 0.949123895818537
+        }
+    },
+    "EndTime": 1523649128.249861,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249845
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9500773592862216,
+            "sum": 0.9500773592862216,
+            "min": 0.9500773592862216
+        }
+    },
+    "EndTime": 1523649128.249919,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.249903
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.881629572088068,
+            "sum": 5.881629572088068,
+            "min": 5.881629572088068
+        }
+    },
+    "EndTime": 1523649128.249975,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.24996
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.622211159446023,
+            "sum": 6.622211159446023,
+            "min": 6.622211159446023
+        }
+    },
+    "EndTime": 1523649128.250031,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250016
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.0404426935369315,
+            "sum": 6.0404426935369315,
+            "min": 6.0404426935369315
+        }
+    },
+    "EndTime": 1523649128.250087,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250072
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.5174580078125,
+            "sum": 7.5174580078125,
+            "min": 7.5174580078125
+        }
+    },
+    "EndTime": 1523649128.250145,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250129
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9718239302201704,
+            "sum": 0.9718239302201704,
+            "min": 0.9718239302201704
+        }
+    },
+    "EndTime": 1523649128.250207,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250192
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9731932428533381,
+            "sum": 0.9731932428533381,
+            "min": 0.9731932428533381
+        }
+    },
+    "EndTime": 1523649128.250265,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250249
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9714847689541903,
+            "sum": 0.9714847689541903,
+            "min": 0.9714847689541903
+        }
+    },
+    "EndTime": 1523649128.250321,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250306
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9732488736239346,
+            "sum": 0.9732488736239346,
+            "min": 0.9732488736239346
+        }
+    },
+    "EndTime": 1523649128.250378,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250363
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.336840154474432,
+            "sum": 2.336840154474432,
+            "min": 2.336840154474432
+        }
+    },
+    "EndTime": 1523649128.250432,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250417
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.6529697820490057,
+            "sum": 2.6529697820490057,
+            "min": 2.6529697820490057
+        }
+    },
+    "EndTime": 1523649128.250495,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250479
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.3206419011896307,
+            "sum": 2.3206419011896307,
+            "min": 2.3206419011896307
+        }
+    },
+    "EndTime": 1523649128.250552,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250536
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.148384432705966,
+            "sum": 2.148384432705966,
+            "min": 2.148384432705966
+        }
+    },
+    "EndTime": 1523649128.250608,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250593
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0033873401988636,
+            "sum": 1.0033873401988636,
+            "min": 1.0033873401988636
+        }
+    },
+    "EndTime": 1523649128.250662,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250647
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0030908036665482,
+            "sum": 1.0030908036665482,
+            "min": 1.0030908036665482
+        }
+    },
+    "EndTime": 1523649128.250717,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250702
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0031412409002132,
+            "sum": 1.0031412409002132,
+            "min": 1.0031412409002132
+        }
+    },
+    "EndTime": 1523649128.250771,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250757
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.003630781693892,
+            "sum": 1.003630781693892,
+            "min": 1.003630781693892
+        }
+    },
+    "EndTime": 1523649128.250825,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.25081
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2794658258611507,
+            "sum": 1.2794658258611507,
+            "min": 1.2794658258611507
+        }
+    },
+    "EndTime": 1523649128.250878,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250864
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3345658180930398,
+            "sum": 1.3345658180930398,
+            "min": 1.3345658180930398
+        }
+    },
+    "EndTime": 1523649128.250926,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250914
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.2379099287553268,
+            "sum": 1.2379099287553268,
+            "min": 1.2379099287553268
+        }
+    },
+    "EndTime": 1523649128.250978,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.250964
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.3178767811168324,
+            "sum": 1.3178767811168324,
+            "min": 1.3178767811168324
+        }
+    },
+    "EndTime": 1523649128.251029,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.251015
+}
+
+[04/13/2018 19:52:08 INFO 139768181839680] Epoch 6: Loss improved. Updating best model
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 84,
+            "sum": 84,
+            "min": 84
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 82038,
+            "sum": 82038,
+            "min": 82038
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 8,
+            "sum": 8,
+            "min": 8
+        }
+    },
+    "EndTime": 1523649128.252305,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 5
+    },
+    "StartTime": 1523649128.252271
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9502505437677556,
+            "sum": 0.9502505437677556,
+            "min": 0.9502505437677556
+        }
+    },
+    "EndTime": 1523649128.582159,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582094
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9503268599076704,
+            "sum": 0.9503268599076704,
+            "min": 0.9503268599076704
+        }
+    },
+    "EndTime": 1523649128.58224,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582227
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9482417436079545,
+            "sum": 0.9482417436079545,
+            "min": 0.9482417436079545
+        }
+    },
+    "EndTime": 1523649128.582292,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.58228
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9508369529030539,
+            "sum": 0.9508369529030539,
+            "min": 0.9508369529030539
+        }
+    },
+    "EndTime": 1523649128.582339,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582325
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.350662508877841,
+            "sum": 7.350662508877841,
+            "min": 7.350662508877841
+        }
+    },
+    "EndTime": 1523649128.582381,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582372
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.904653631036932,
+            "sum": 6.904653631036932,
+            "min": 6.904653631036932
+        }
+    },
+    "EndTime": 1523649128.58241,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582403
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.188704323508523,
+            "sum": 6.188704323508523,
+            "min": 6.188704323508523
+        }
+    },
+    "EndTime": 1523649128.582451,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582438
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.885049183238636,
+            "sum": 6.885049183238636,
+            "min": 6.885049183238636
+        }
+    },
+    "EndTime": 1523649128.582502,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582489
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9489732388583096,
+            "sum": 0.9489732388583096,
+            "min": 0.9489732388583096
+        }
+    },
+    "EndTime": 1523649128.582554,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582542
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9498878118341619,
+            "sum": 0.9498878118341619,
+            "min": 0.9498878118341619
+        }
+    },
+    "EndTime": 1523649128.582586,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582578
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9485459650213068,
+            "sum": 0.9485459650213068,
+            "min": 0.9485459650213068
+        }
+    },
+    "EndTime": 1523649128.582632,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582618
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9503075506036932,
+            "sum": 0.9503075506036932,
+            "min": 0.9503075506036932
+        }
+    },
+    "EndTime": 1523649128.582677,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582668
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.002133345170455,
+            "sum": 5.002133345170455,
+            "min": 5.002133345170455
+        }
+    },
+    "EndTime": 1523649128.582721,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582708
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.808413263494318,
+            "sum": 5.808413263494318,
+            "min": 5.808413263494318
+        }
+    },
+    "EndTime": 1523649128.582775,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582761
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.339603471235796,
+            "sum": 5.339603471235796,
+            "min": 5.339603471235796
+        }
+    },
+    "EndTime": 1523649128.582831,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582816
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.746426091974432,
+            "sum": 7.746426091974432,
+            "min": 7.746426091974432
+        }
+    },
+    "EndTime": 1523649128.582885,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.58287
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9729777277166193,
+            "sum": 0.9729777277166193,
+            "min": 0.9729777277166193
+        }
+    },
+    "EndTime": 1523649128.582933,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.582923
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9740793845436789,
+            "sum": 0.9740793845436789,
+            "min": 0.9740793845436789
+        }
+    },
+    "EndTime": 1523649128.582985,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.58297
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9729246992631392,
+            "sum": 0.9729246992631392,
+            "min": 0.9729246992631392
+        }
+    },
+    "EndTime": 1523649128.583039,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583024
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.974989218971946,
+            "sum": 0.974989218971946,
+            "min": 0.974989218971946
+        }
+    },
+    "EndTime": 1523649128.583094,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583079
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.9787294477982955,
+            "sum": 1.9787294477982955,
+            "min": 1.9787294477982955
+        }
+    },
+    "EndTime": 1523649128.583145,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583131
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.798272616299716,
+            "sum": 2.798272616299716,
+            "min": 2.798272616299716
+        }
+    },
+    "EndTime": 1523649128.583201,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583185
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.0266018288352274,
+            "sum": 2.0266018288352274,
+            "min": 2.0266018288352274
+        }
+    },
+    "EndTime": 1523649128.583256,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583241
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.911104414506392,
+            "sum": 1.911104414506392,
+            "min": 1.911104414506392
+        }
+    },
+    "EndTime": 1523649128.58331,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583295
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.004363358931108,
+            "sum": 1.004363358931108,
+            "min": 1.004363358931108
+        }
+    },
+    "EndTime": 1523649128.583364,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583349
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0049819391424006,
+            "sum": 1.0049819391424006,
+            "min": 1.0049819391424006
+        }
+    },
+    "EndTime": 1523649128.583418,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583403
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0046877885298295,
+            "sum": 1.0046877885298295,
+            "min": 1.0046877885298295
+        }
+    },
+    "EndTime": 1523649128.583476,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583461
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0041656716086649,
+            "sum": 1.0041656716086649,
+            "min": 1.0041656716086649
+        }
+    },
+    "EndTime": 1523649128.583531,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583515
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.094327470259233,
+            "sum": 1.094327470259233,
+            "min": 1.094327470259233
+        }
+    },
+    "EndTime": 1523649128.583584,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583569
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.146238320090554,
+            "sum": 1.146238320090554,
+            "min": 1.146238320090554
+        }
+    },
+    "EndTime": 1523649128.58364,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583626
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0729584073153409,
+            "sum": 1.0729584073153409,
+            "min": 1.0729584073153409
+        }
+    },
+    "EndTime": 1523649128.583696,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.58368
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.1322832752574574,
+            "sum": 1.1322832752574574,
+            "min": 1.1322832752574574
+        }
+    },
+    "EndTime": 1523649128.58375,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.583735
+}
+
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 96,
+            "sum": 96,
+            "min": 96
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 93711,
+            "sum": 93711,
+            "min": 93711
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 9,
+            "sum": 9,
+            "min": 9
+        }
+    },
+    "EndTime": 1523649128.584169,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 6
+    },
+    "StartTime": 1523649128.584136
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9485981944691051,
+            "sum": 0.9485981944691051,
+            "min": 0.9485981944691051
+        }
+    },
+    "EndTime": 1523649128.90602,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.90593
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9507042014382102,
+            "sum": 0.9507042014382102,
+            "min": 0.9507042014382102
+        }
+    },
+    "EndTime": 1523649128.906122,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906102
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9478994418057528,
+            "sum": 0.9478994418057528,
+            "min": 0.9478994418057528
+        }
+    },
+    "EndTime": 1523649128.906181,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906167
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9492419489080256,
+            "sum": 0.9492419489080256,
+            "min": 0.9492419489080256
+        }
+    },
+    "EndTime": 1523649128.906236,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906222
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.770677290482954,
+            "sum": 6.770677290482954,
+            "min": 6.770677290482954
+        }
+    },
+    "EndTime": 1523649128.906287,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906274
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 8.372732599431819,
+            "sum": 8.372732599431819,
+            "min": 8.372732599431819
+        }
+    },
+    "EndTime": 1523649128.906339,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906325
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.033215065696023,
+            "sum": 6.033215065696023,
+            "min": 6.033215065696023
+        }
+    },
+    "EndTime": 1523649128.906393,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906377
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.717561301491477,
+            "sum": 6.717561301491477,
+            "min": 6.717561301491477
+        }
+    },
+    "EndTime": 1523649128.906444,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906431
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.948326737837358,
+            "sum": 0.948326737837358,
+            "min": 0.948326737837358
+        }
+    },
+    "EndTime": 1523649128.906493,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.90648
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.949996903852983,
+            "sum": 0.949996903852983,
+            "min": 0.949996903852983
+        }
+    },
+    "EndTime": 1523649128.906542,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906529
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.947795321377841,
+            "sum": 0.947795321377841,
+            "min": 0.947795321377841
+        }
+    },
+    "EndTime": 1523649128.90659,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906577
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9488397549715909,
+            "sum": 0.9488397549715909,
+            "min": 0.9488397549715909
+        }
+    },
+    "EndTime": 1523649128.906639,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906626
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 4.604172629616477,
+            "sum": 4.604172629616477,
+            "min": 4.604172629616477
+        }
+    },
+    "EndTime": 1523649128.90669,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906676
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.685442649147728,
+            "sum": 5.685442649147728,
+            "min": 5.685442649147728
+        }
+    },
+    "EndTime": 1523649128.906739,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906726
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.066870339133523,
+            "sum": 5.066870339133523,
+            "min": 5.066870339133523
+        }
+    },
+    "EndTime": 1523649128.906787,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906775
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.274950328480114,
+            "sum": 7.274950328480114,
+            "min": 7.274950328480114
+        }
+    },
+    "EndTime": 1523649128.906833,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906821
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9727486072887074,
+            "sum": 0.9727486072887074,
+            "min": 0.9727486072887074
+        }
+    },
+    "EndTime": 1523649128.906879,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906867
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9740465476296165,
+            "sum": 0.9740465476296165,
+            "min": 0.9740465476296165
+        }
+    },
+    "EndTime": 1523649128.906929,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906916
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9727550936612216,
+            "sum": 0.9727550936612216,
+            "min": 0.9727550936612216
+        }
+    },
+    "EndTime": 1523649128.906976,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.906964
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9742976407137784,
+            "sum": 0.9742976407137784,
+            "min": 0.9742976407137784
+        }
+    },
+    "EndTime": 1523649128.907022,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.90701
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8763106911399148,
+            "sum": 1.8763106911399148,
+            "min": 1.8763106911399148
+        }
+    },
+    "EndTime": 1523649128.907069,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907057
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.7242246759588067,
+            "sum": 2.7242246759588067,
+            "min": 2.7242246759588067
+        }
+    },
+    "EndTime": 1523649128.907118,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907106
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.9554393976384943,
+            "sum": 1.9554393976384943,
+            "min": 1.9554393976384943
+        }
+    },
+    "EndTime": 1523649128.907163,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907152
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.9524258367365057,
+            "sum": 1.9524258367365057,
+            "min": 1.9524258367365057
+        }
+    },
+    "EndTime": 1523649128.90721,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907197
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0040282093394886,
+            "sum": 1.0040282093394886,
+            "min": 1.0040282093394886
+        }
+    },
+    "EndTime": 1523649128.907257,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907245
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.00425468860973,
+            "sum": 1.00425468860973,
+            "min": 1.00425468860973
+        }
+    },
+    "EndTime": 1523649128.907302,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.90729
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.004003262606534,
+            "sum": 1.004003262606534,
+            "min": 1.004003262606534
+        }
+    },
+    "EndTime": 1523649128.907348,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907335
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0038417025479403,
+            "sum": 1.0038417025479403,
+            "min": 1.0038417025479403
+        }
+    },
+    "EndTime": 1523649128.907397,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907383
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0631761973987925,
+            "sum": 1.0631761973987925,
+            "min": 1.0631761973987925
+        }
+    },
+    "EndTime": 1523649128.907448,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907433
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0784072210138493,
+            "sum": 1.0784072210138493,
+            "min": 1.0784072210138493
+        }
+    },
+    "EndTime": 1523649128.907501,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907487
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0674837979403409,
+            "sum": 1.0674837979403409,
+            "min": 1.0674837979403409
+        }
+    },
+    "EndTime": 1523649128.907556,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.90754
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.077304648659446,
+            "sum": 1.077304648659446,
+            "min": 1.077304648659446
+        }
+    },
+    "EndTime": 1523649128.907611,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649128.907596
+}
+
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 108,
+            "sum": 108,
+            "min": 108
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 105384,
+            "sum": 105384,
+            "min": 105384
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 10,
+            "sum": 10,
+            "min": 10
+        }
+    },
+    "EndTime": 1523649128.908092,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 7
+    },
+    "StartTime": 1523649128.90804
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9473447598544034,
+            "sum": 0.9473447598544034,
+            "min": 0.9473447598544034
+        }
+    },
+    "EndTime": 1523649129.237366,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237302
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9497205533114347,
+            "sum": 0.9497205533114347,
+            "min": 0.9497205533114347
+        }
+    },
+    "EndTime": 1523649129.237451,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237433
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.947537841796875,
+            "sum": 0.947537841796875,
+            "min": 0.947537841796875
+        }
+    },
+    "EndTime": 1523649129.237507,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237492
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9492527132901278,
+            "sum": 0.9492527132901278,
+            "min": 0.9492527132901278
+        }
+    },
+    "EndTime": 1523649129.237559,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237545
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.8166226917613635,
+            "sum": 5.8166226917613635,
+            "min": 5.8166226917613635
+        }
+    },
+    "EndTime": 1523649129.237607,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237594
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.321958629261363,
+            "sum": 9.321958629261363,
+            "min": 9.321958629261363
+        }
+    },
+    "EndTime": 1523649129.237654,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237641
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.055276100852272,
+            "sum": 6.055276100852272,
+            "min": 6.055276100852272
+        }
+    },
+    "EndTime": 1523649129.237707,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237692
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.895875532670455,
+            "sum": 6.895875532670455,
+            "min": 6.895875532670455
+        }
+    },
+    "EndTime": 1523649129.23776,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237746
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9470980002663353,
+            "sum": 0.9470980002663353,
+            "min": 0.9470980002663353
+        }
+    },
+    "EndTime": 1523649129.23781,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237796
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9489045132723721,
+            "sum": 0.9489045132723721,
+            "min": 0.9489045132723721
+        }
+    },
+    "EndTime": 1523649129.237864,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237848
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9470201305042614,
+            "sum": 0.9470201305042614,
+            "min": 0.9470201305042614
+        }
+    },
+    "EndTime": 1523649129.237918,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237903
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9485684647993607,
+            "sum": 0.9485684647993607,
+            "min": 0.9485684647993607
+        }
+    },
+    "EndTime": 1523649129.237972,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.237957
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 4.652576216264205,
+            "sum": 4.652576216264205,
+            "min": 4.652576216264205
+        }
+    },
+    "EndTime": 1523649129.238026,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238011
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.869099343039773,
+            "sum": 5.869099343039773,
+            "min": 5.869099343039773
+        }
+    },
+    "EndTime": 1523649129.238079,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238065
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.294655628551136,
+            "sum": 5.294655628551136,
+            "min": 5.294655628551136
+        }
+    },
+    "EndTime": 1523649129.238132,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238118
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.954267134232954,
+            "sum": 6.954267134232954,
+            "min": 6.954267134232954
+        }
+    },
+    "EndTime": 1523649129.238184,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.23817
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9719430652965199,
+            "sum": 0.9719430652965199,
+            "min": 0.9719430652965199
+        }
+    },
+    "EndTime": 1523649129.238236,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238221
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.973693925337358,
+            "sum": 0.973693925337358,
+            "min": 0.973693925337358
+        }
+    },
+    "EndTime": 1523649129.238289,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238275
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9720036343661221,
+            "sum": 0.9720036343661221,
+            "min": 0.9720036343661221
+        }
+    },
+    "EndTime": 1523649129.238341,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238327
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9738212946111505,
+            "sum": 0.9738212946111505,
+            "min": 0.9738212946111505
+        }
+    },
+    "EndTime": 1523649129.238393,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238379
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.8544699263139204,
+            "sum": 1.8544699263139204,
+            "min": 1.8544699263139204
+        }
+    },
+    "EndTime": 1523649129.238445,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238431
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.6468947975852273,
+            "sum": 2.6468947975852273,
+            "min": 2.6468947975852273
+        }
+    },
+    "EndTime": 1523649129.238498,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238483
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.9992000066583806,
+            "sum": 1.9992000066583806,
+            "min": 1.9992000066583806
+        }
+    },
+    "EndTime": 1523649129.23855,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238535
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.134908846768466,
+            "sum": 2.134908846768466,
+            "min": 2.134908846768466
+        }
+    },
+    "EndTime": 1523649129.238603,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238588
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0034187566583808,
+            "sum": 1.0034187566583808,
+            "min": 1.0034187566583808
+        }
+    },
+    "EndTime": 1523649129.238657,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238642
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0038799161044034,
+            "sum": 1.0038799161044034,
+            "min": 1.0038799161044034
+        }
+    },
+    "EndTime": 1523649129.238709,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238695
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.003548828125,
+            "sum": 1.003548828125,
+            "min": 1.003548828125
+        }
+    },
+    "EndTime": 1523649129.238764,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238749
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0036255992542613,
+            "sum": 1.0036255992542613,
+            "min": 1.0036255992542613
+        }
+    },
+    "EndTime": 1523649129.238816,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238802
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.1098777132901279,
+            "sum": 1.1098777132901279,
+            "min": 1.1098777132901279
+        }
+    },
+    "EndTime": 1523649129.238869,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238854
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.1126746382279828,
+            "sum": 1.1126746382279828,
+            "min": 1.1126746382279828
+        }
+    },
+    "EndTime": 1523649129.238932,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238917
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.117704306862571,
+            "sum": 1.117704306862571,
+            "min": 1.117704306862571
+        }
+    },
+    "EndTime": 1523649129.238994,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.238979
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.116794871937145,
+            "sum": 1.116794871937145,
+            "min": 1.116794871937145
+        }
+    },
+    "EndTime": 1523649129.239046,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.239032
+}
+
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 120,
+            "sum": 120,
+            "min": 120
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 117057,
+            "sum": 117057,
+            "min": 117057
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 11,
+            "sum": 11,
+            "min": 11
+        }
+    },
+    "EndTime": 1523649129.239514,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 8
+    },
+    "StartTime": 1523649129.239468
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9473245572176846,
+            "sum": 0.9473245572176846,
+            "min": 0.9473245572176846
+        }
+    },
+    "EndTime": 1523649129.557691,
+    "Dimensions": {
+        "model": 0,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.557628
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9500494273792613,
+            "sum": 0.9500494273792613,
+            "min": 0.9500494273792613
+        }
+    },
+    "EndTime": 1523649129.557778,
+    "Dimensions": {
+        "model": 1,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.55776
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9472219182794744,
+            "sum": 0.9472219182794744,
+            "min": 0.9472219182794744
+        }
+    },
+    "EndTime": 1523649129.557837,
+    "Dimensions": {
+        "model": 2,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.557821
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9488736794211647,
+            "sum": 0.9488736794211647,
+            "min": 0.9488736794211647
+        }
+    },
+    "EndTime": 1523649129.557889,
+    "Dimensions": {
+        "model": 3,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.557874
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.079045809659091,
+            "sum": 5.079045809659091,
+            "min": 5.079045809659091
+        }
+    },
+    "EndTime": 1523649129.557945,
+    "Dimensions": {
+        "model": 4,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.55793
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 9.125139026988636,
+            "sum": 9.125139026988636,
+            "min": 9.125139026988636
+        }
+    },
+    "EndTime": 1523649129.557999,
+    "Dimensions": {
+        "model": 5,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.557986
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.307532448508523,
+            "sum": 6.307532448508523,
+            "min": 6.307532448508523
+        }
+    },
+    "EndTime": 1523649129.55805,
+    "Dimensions": {
+        "model": 6,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558036
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 7.098374378551136,
+            "sum": 7.098374378551136,
+            "min": 7.098374378551136
+        }
+    },
+    "EndTime": 1523649129.558101,
+    "Dimensions": {
+        "model": 7,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558087
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9468886940696023,
+            "sum": 0.9468886940696023,
+            "min": 0.9468886940696023
+        }
+    },
+    "EndTime": 1523649129.558153,
+    "Dimensions": {
+        "model": 8,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558139
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.949067294034091,
+            "sum": 0.949067294034091,
+            "min": 0.949067294034091
+        }
+    },
+    "EndTime": 1523649129.55821,
+    "Dimensions": {
+        "model": 9,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558195
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9469879427823154,
+            "sum": 0.9469879427823154,
+            "min": 0.9469879427823154
+        }
+    },
+    "EndTime": 1523649129.558266,
+    "Dimensions": {
+        "model": 10,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558251
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.948734785600142,
+            "sum": 0.948734785600142,
+            "min": 0.948734785600142
+        }
+    },
+    "EndTime": 1523649129.558323,
+    "Dimensions": {
+        "model": 11,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558308
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 4.874532892400568,
+            "sum": 4.874532892400568,
+            "min": 4.874532892400568
+        }
+    },
+    "EndTime": 1523649129.558378,
+    "Dimensions": {
+        "model": 12,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558363
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.346775257457386,
+            "sum": 6.346775257457386,
+            "min": 6.346775257457386
+        }
+    },
+    "EndTime": 1523649129.558431,
+    "Dimensions": {
+        "model": 13,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558416
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 5.360466619318182,
+            "sum": 5.360466619318182,
+            "min": 5.360466619318182
+        }
+    },
+    "EndTime": 1523649129.558486,
+    "Dimensions": {
+        "model": 14,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558471
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 6.674899547230114,
+            "sum": 6.674899547230114,
+            "min": 6.674899547230114
+        }
+    },
+    "EndTime": 1523649129.558546,
+    "Dimensions": {
+        "model": 15,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558532
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9720739191228693,
+            "sum": 0.9720739191228693,
+            "min": 0.9720739191228693
+        }
+    },
+    "EndTime": 1523649129.558601,
+    "Dimensions": {
+        "model": 16,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558586
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9741619651100852,
+            "sum": 0.9741619651100852,
+            "min": 0.9741619651100852
+        }
+    },
+    "EndTime": 1523649129.558657,
+    "Dimensions": {
+        "model": 17,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558642
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9721763583096591,
+            "sum": 0.9721763583096591,
+            "min": 0.9721763583096591
+        }
+    },
+    "EndTime": 1523649129.558711,
+    "Dimensions": {
+        "model": 18,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558697
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 0.9744097123579546,
+            "sum": 0.9744097123579546,
+            "min": 0.9744097123579546
+        }
+    },
+    "EndTime": 1523649129.558767,
+    "Dimensions": {
+        "model": 19,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558752
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.920135420365767,
+            "sum": 1.920135420365767,
+            "min": 1.920135420365767
+        }
+    },
+    "EndTime": 1523649129.558825,
+    "Dimensions": {
+        "model": 20,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.55881
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.4792880859375,
+            "sum": 2.4792880859375,
+            "min": 2.4792880859375
+        }
+    },
+    "EndTime": 1523649129.558882,
+    "Dimensions": {
+        "model": 21,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558867
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.9622494562322443,
+            "sum": 1.9622494562322443,
+            "min": 1.9622494562322443
+        }
+    },
+    "EndTime": 1523649129.558935,
+    "Dimensions": {
+        "model": 22,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558921
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 2.2262022594105115,
+            "sum": 2.2262022594105115,
+            "min": 2.2262022594105115
+        }
+    },
+    "EndTime": 1523649129.55899,
+    "Dimensions": {
+        "model": 23,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.558975
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0035985662286933,
+            "sum": 1.0035985662286933,
+            "min": 1.0035985662286933
+        }
+    },
+    "EndTime": 1523649129.559045,
+    "Dimensions": {
+        "model": 24,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.55903
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.003879522150213,
+            "sum": 1.003879522150213,
+            "min": 1.003879522150213
+        }
+    },
+    "EndTime": 1523649129.559101,
+    "Dimensions": {
+        "model": 25,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559085
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0037047063654119,
+            "sum": 1.0037047063654119,
+            "min": 1.0037047063654119
+        }
+    },
+    "EndTime": 1523649129.559157,
+    "Dimensions": {
+        "model": 26,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559142
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.0036168046431109,
+            "sum": 1.0036168046431109,
+            "min": 1.0036168046431109
+        }
+    },
+    "EndTime": 1523649129.559213,
+    "Dimensions": {
+        "model": 27,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559198
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.1402657248757102,
+            "sum": 1.1402657248757102,
+            "min": 1.1402657248757102
+        }
+    },
+    "EndTime": 1523649129.559267,
+    "Dimensions": {
+        "model": 28,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559252
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.157950206409801,
+            "sum": 1.157950206409801,
+            "min": 1.157950206409801
+        }
+    },
+    "EndTime": 1523649129.559323,
+    "Dimensions": {
+        "model": 29,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559308
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.141834433815696,
+            "sum": 1.141834433815696,
+            "min": 1.141834433815696
+        }
+    },
+    "EndTime": 1523649129.559372,
+    "Dimensions": {
+        "model": 30,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559357
+}
+
+#metrics
+{
+    "Metrics": {
+        "training_mse": {
+            "count": 1,
+            "max": 1.160866160999645,
+            "sum": 1.160866160999645,
+            "min": 1.160866160999645
+        }
+    },
+    "EndTime": 1523649129.559411,
+    "Dimensions": {
+        "model": 31,
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 10
+    },
+    "StartTime": 1523649129.559399
+}
+
+[04/13/2018 19:52:09 INFO 139768181839680] Early stop condition met. Stopping training.
+#metrics
+{
+    "Metrics": {
+        "Max Batches Seen Between Resets": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Batches Since Last Reset": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        },
+        "Number of Records Since Last Reset": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Total Batches Seen": {
+            "count": 1,
+            "max": 132,
+            "sum": 132,
+            "min": 132
+        },
+        "Total Records Seen": {
+            "count": 1,
+            "max": 128730,
+            "sum": 128730,
+            "min": 128730
+        },
+        "Max Records Seen Between Resets": {
+            "count": 1,
+            "max": 11673,
+            "sum": 11673,
+            "min": 11673
+        },
+        "Reset Count": {
+            "count": 1,
+            "max": 12,
+            "sum": 12,
+            "min": 12
+        }
+    },
+    "EndTime": 1523649129.560012,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Meta": "training_data_iter",
+        "Operation": "training",
+        "Algorithm": "Linear Learner",
+        "epoch": 9
+    },
+    "StartTime": 1523649129.55997
+}
+
+[04/13/2018 19:52:09 WARNING 139768181839680] wait_for_all_workers will not sync workers since the kv store is not running distributed
+[04/13/2018 19:52:09 WARNING 139768181839680] wait_for_all_workers will not sync workers since the kv store is not running distributed
+[04/13/2018 19:52:09 INFO 139768181839680] Best model found for hyperparameters:
+{
+    "lr_scheduler_step": 100,
+    "wd": 0.0001,
+    "optimizer": "adam",
+    "lr_scheduler_factor": 0.99,
+    "learning_rate": 0.005,
+    "lr_scheduler_minimum_lr": 0.0001
+}
+[04/13/2018 19:52:09 INFO 139768181839680] Saved checkpoint to "/tmp/tmpdHINNk/mx-mod-0000.params"
+[04/13/2018 19:52:09 INFO 139768181839680] Test data was not provided.
+#metrics
+{
+    "Metrics": {
+        "totaltime": {
+            "count": 1,
+            "max": 4064.652919769287,
+            "sum": 4064.652919769287,
+            "min": 4064.652919769287
+        },
+        "finalize.time": {
+            "count": 1,
+            "max": 17.41194725036621,
+            "sum": 17.41194725036621,
+            "min": 17.41194725036621
+        },
+        "initialize.time": {
+            "count": 1,
+            "max": 541.9890880584717,
+            "sum": 541.9890880584717,
+            "min": 541.9890880584717
+        },
+        "check_early_stopping.time": {
+            "count": 10,
+            "max": 1.3880729675292969,
+            "sum": 6.3419342041015625,
+            "min": 0.06699562072753906
+        },
+        "setuptime": {
+            "count": 1,
+            "max": 31.089067459106445,
+            "sum": 31.089067459106445,
+            "min": 31.089067459106445
+        },
+        "update.time": {
+            "count": 10,
+            "max": 402.677059173584,
+            "sum": 3388.169050216675,
+            "min": 319.87905502319336
+        },
+        "epochs": {
+            "count": 1,
+            "max": 20,
+            "sum": 20,
+            "min": 20
+        }
+    },
+    "EndTime": 1523649129.585628,
+    "Dimensions": {
+        "Host": "algo-1",
+        "Operation": "training",
+        "Algorithm": "Linear Learner"
+    },
+    "StartTime": 1523649125.597178
+}
