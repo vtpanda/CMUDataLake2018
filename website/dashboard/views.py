@@ -143,5 +143,5 @@ def home(request):
 
 
         context = {"tablename": 'result table', "columnNames": columnNames, "attributeLine": attributeLine,
-                   "show": True, "percentage": 75}
+                   "show": True, "percentage": percentage}
         return render(request, 'dashboard/patient-home.html', context)
