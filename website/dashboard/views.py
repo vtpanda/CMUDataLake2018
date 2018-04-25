@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from pyathena import connect
 import os
+import numpy as np
 from dashboard.ConnectSagemaker import invoke_sagemake_endpoint
 from decimal import getcontext, Decimal
 
@@ -44,7 +45,10 @@ def getColumnName(tablename):
 
 def home(request):
     if request.method == "GET":
-        return render(request, 'dashboard/patient-home.html', {"show": False})
+        unique_condtion = np.load('dashboard/templates/npy/conditions_catagories.npy')
+        unique_countries = np.load('dashboard/templates/npy/countries_catagories.npy')
+        unique_interventions = np.load('dashboard/templates/npy/interventions_catagories.npy')
+        return render(request, 'dashboard/patient-home.html', {"show": False, "conditions" : unique_condtion, "countries" : unique_countries, "interventions" : unique_interventions})
     if request.method == 'POST':
         cursor = connect(aws_access_key_id=os.environ["accessKey"],
                          aws_secret_access_key=os.environ["secretKey"],
@@ -73,10 +77,10 @@ def home(request):
         #     context = {"tablename": tablename, "columnNames": columnNames, "attributeLine": a, "show": True}
         #     return render(request, 'dashboard/patient-home.html', context)
         # else:
-        condition = request.POST['health_condition']
+        condition = request.POST.getlist('health_condition')
         gender = request.POST['gender']
         country = request.POST['country']
-        intervention = request.POST['interventions']
+        intervention = request.POST.getlist('interventions')
         facility_num = request.POST['facility_num']
         us_facility = request.POST['us_facility']
         sponsor_num = request.POST['sponsor_num']
@@ -91,13 +95,26 @@ def home(request):
         else:
             vector.append(0)
         vector.append(int(sponsor_num))
-        vector.append(conditions)
-        vector.append(interventions)
+        vector.append(condition)
+        vector.append(intervention)
         vector.append(country)
-        print(condition)
+        print(conditions)
         print(gender)
         print(country)
         print(vector)
+        #build condition list
+        conditionlist = "("
+        for c in condition:
+            conditionlist += '\''
+            conditionlist += c
+            conditionlist += '\''
+            conditionlist += ","
+        #get rid of the last ,
+        conditionlist = conditionlist[0: len(conditionlist) - 1]
+        conditionlist += ')'
+
+        print("HERE COMES THE EAD!!!!!!")
+        print(conditionlist)
         query = "select s.nct_id, brief_title, array_agg(distinct adverse_event_term) adverse_event" \
                 + " from clinic.studies s" \
                 + " join clinic.reported_events r" \
@@ -113,7 +130,7 @@ def home(request):
                 + " (" \
                 + " select nct_id" \
                 + " 	from clinic.browse_conditions" \
-                + " 	where downcase_mesh_term = '" + condition + "'" \
+                + " 	where downcase_mesh_term in " + conditionlist \
                 + " ) bc" \
                 + " on s.nct_id = bc.nct_id" \
                 + " join" \

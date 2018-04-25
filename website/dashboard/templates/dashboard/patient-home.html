@@ -33,12 +33,10 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="exampleFormControlSelect1">Health Condition</label>
-                <select class="form-control" id="exampleFormControlSelect1" name="health_condition">
-                    <option>acute pain</option>
-                    <option>hiv infections</option>
-                    <option>hepatitis b</option>
-                    <option>amnesia</option>
-                    <option>muscle weakness</option>
+                <select class="form-control" id="exampleFormControlSelectCondition" name="health_condition[]" multiple="multiple">
+                    {% for condition in conditions %}
+                    <option>{{condition}}</option>
+                    {% endfor %}
                 </select>
             </div>
         </div>
@@ -60,12 +58,10 @@
             <div class="col-md-3 mb-3">
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Country</label>
-                    <select class="form-control" id="exampleFormControlSelect1" name="country">
-                        <option>United States</option>
-                        <option>France</option>
-                        <option>Canada</option>
-                        <option>Germany</option>
-                        <option>China</option>
+                    <select class="form-control" id="exampleFormControlSelectCountry" name="country"  placeholder = "">
+                        {% for country in countries %}
+                        <option>{{ country }}</option>
+                        {% endfor %}
                     </select>
                 </div>
             </div>
@@ -89,10 +85,10 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="exampleFormControlSelect1">Treatment</label>
-                <select class="form-control" id="exampleFormControlSelect1" name="interventions">
-                    <option>iodine</option>
-                    <option>antidotes</option>
-                    <option>antipain</option>
+                <select class="form-control" id="exampleFormControlSelectIntervention" name="interventions[]" multiple="multiple">
+                    {% for intervention in interventions %}
+                        <option>{{ intervention }}</option>
+                    {% endfor %}
                 </select>
             </div>
         </div>
@@ -157,6 +153,7 @@
 
         </table>
     {% endif %}
+    <script src="../../static/js/dropdown.js" type="text/javascript"></script>
 {% endblock %}
 
 
