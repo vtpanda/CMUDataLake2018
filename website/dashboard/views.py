@@ -44,10 +44,10 @@ def getColumnName(tablename):
 # Create your views here.
 
 def home(request):
+    unique_condtion = np.load('dashboard/templates/npy/conditions_catagories.npy')
+    unique_countries = np.load('dashboard/templates/npy/countries_catagories.npy')
+    unique_interventions = np.load('dashboard/templates/npy/interventions_catagories.npy')
     if request.method == "GET":
-        unique_condtion = np.load('dashboard/templates/npy/conditions_catagories.npy')
-        unique_countries = np.load('dashboard/templates/npy/countries_catagories.npy')
-        unique_interventions = np.load('dashboard/templates/npy/interventions_catagories.npy')
         return render(request, 'dashboard/patient-home.html', {"show": False, "conditions" : unique_condtion, "countries" : unique_countries, "interventions" : unique_interventions})
     if request.method == 'POST':
         cursor = connect(aws_access_key_id=os.environ["accessKey"],
@@ -77,10 +77,10 @@ def home(request):
         #     context = {"tablename": tablename, "columnNames": columnNames, "attributeLine": a, "show": True}
         #     return render(request, 'dashboard/patient-home.html', context)
         # else:
-        condition = request.POST.getlist('health_condition')
+        condition = request.POST.getlist('health_condition[]')
         gender = request.POST['gender']
         country = request.POST['country']
-        intervention = request.POST.getlist('interventions')
+        intervention = request.POST.getlist('interventions[]')
         facility_num = request.POST['facility_num']
         us_facility = request.POST['us_facility']
         sponsor_num = request.POST['sponsor_num']
@@ -160,5 +160,5 @@ def home(request):
 
 
         context = {"tablename": 'result table', "columnNames": columnNames, "attributeLine": attributeLine,
-                   "show": True, "percentage": percentage}
+                   "show": True, "percentage": percentage, "conditions" : unique_condtion, "countries" : unique_countries, "interventions" : unique_interventions}
         return render(request, 'dashboard/patient-home.html', context)
