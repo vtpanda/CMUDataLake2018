@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block body %}
-        <form class="mt-4" method="post" action="{% url 'dashboard:dashhome' %}">
+    <form class="mt-4" method="post" action="{% url 'dashboard:dashhome' %}">
         <span>Personal Information</span>
         <hr>
         <div class="form-row">
@@ -89,7 +89,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="exampleFormControlSelect1">Treatment</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="exampleFormControlSelect1" name="interventions">
                     <option>iodine</option>
                     <option>antidotes</option>
                     <option>antipain</option>
@@ -97,14 +97,23 @@
             </div>
         </div>
         <div class="form-row">
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
                 <label for="validationTooltip01">Number of Sponsors</label>
                 <input type="text" class="form-control" id="validationTooltip01" placeholder="Number of Sponsors"
+                       name="sponsor_num"
                        required>
             </div>
-            <div class="col-md-6 mb-3">
+            <div class="col-md-4 mb-3">
+                <label for="validationTooltip01">Contain U.S. Facilities</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="us_facility">
+                    <option>yes</option>
+                    <option>no</option>
+                </select>
+            </div>
+            <div class="col-md-4 mb-3">
                 <label for="validationTooltip02">Number of Facilities</label>
                 <input type="text" class="form-control" id="validationTooltip02" placeholder="Number of Facilities"
+                       name="facility_num"
                        required>
             </div>
         </div>
@@ -113,36 +122,44 @@
         {% csrf_token %}
     </form>
 
-    <form method="POST" action="{% url 'dashboard:dashhome' %}">
-        <select name="tablename">
-            <option value="reported_events">reported_events</option>
-            <option value="browse_conditions">browse_conditions</option>
-            <option value="browse_interventions">browse_interventions</option>
-        </select>
-        <button value="submit">submit</button>
-        {% csrf_token %}
-    </form>
+    {#    <form method="POST" action="{% url 'dashboard:dashhome' %}">#}
+    {#        <select name="tablename">#}
+    {#            <option value="reported_events">reported_events</option>#}
+    {#            <option value="browse_conditions">browse_conditions</option>#}
+    {#            <option value="browse_interventions">browse_interventions</option>#}
+    {#        </select>#}
+    {#        <button value="submit">submit</button>#}
+    {#        {% csrf_token %}#}
+    {#    </form>#}
 
-<br><br><br>
-{% if show %}
-<p>table name: {{tablename}}</p>
+    <br><br><br>
+    {% if show %}
+        <p style="width:{{ percentage }}%" data-value="{{ percentage }}">Probability of Adverse Events</p>
+        <progress max="100" value="{{ percentage }}" class="html5">
+            <div class="progress-bar">
+                <span style="width: 100%">100%</span>
+            </div>
+        </progress>
+        <p>Recommendation</p>
+        <table border="1" id="results">
+            <tr>
+                {% for columnname in columnNames %}
+                    <th>  {{ columnname }}</th>
+                {% endfor %}
+            </tr>
+            {% for attributes in attributeLine %}
+                <tr>
+                    {% for row in attributes %}
+                        <td>  {{ row }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
 
-<table border="1">
-  <tr>
-   {% for columnname in columnNames %}
-        <th>  {{columnname}}</th>
-    {% endfor %}
-  </tr>
-    {% for attributes in attributeLine %}
-    <tr>
-        {% for row in attributes %}
-        <th>  {{row}}</th>
-        {% endfor %}
-  </tr>
-    {% endfor %}
+        </table>
     {% endif %}
-</table>
 {% endblock %}
+
+
 
 
 
