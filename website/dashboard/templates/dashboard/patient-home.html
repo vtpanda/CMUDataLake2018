@@ -33,9 +33,10 @@
         <div class="form-row">
             <div class="form-group col-md-12">
                 <label for="exampleFormControlSelect1">Health Condition</label>
-                <select class="form-control" id="exampleFormControlSelectCondition" name="health_condition[]" multiple="multiple">
+                <select class="form-control" id="exampleFormControlSelectCondition" name="health_condition[]"
+                        multiple="multiple">
                     {% for condition in conditions %}
-                    <option>{{condition}}</option>
+                        <option>{{ condition }}</option>
                     {% endfor %}
                 </select>
             </div>
@@ -60,7 +61,7 @@
                     <label for="exampleFormControlSelect1">Country</label>
                     <select class="form-control" id="exampleFormControlSelectCountry" name="country">
                         {% for country in countries %}
-                        <option>{{ country }}</option>
+                            <option>{{ country }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -85,7 +86,8 @@
         <div class="form-row">
             <div class="form-group col-md-12">
                 <label for="exampleFormControlSelect1">Treatment</label>
-                <select class="form-control" id="exampleFormControlSelectIntervention" name="interventions[]" multiple="multiple">
+                <select class="form-control" id="exampleFormControlSelectIntervention" name="interventions[]"
+                        multiple="multiple">
                     {% for intervention in interventions %}
                         <option>{{ intervention }}</option>
                     {% endfor %}
@@ -130,28 +132,33 @@
 
     <br><br><br>
     {% if show %}
-        <p style="width:{{ percentage }}%" data-value="{{ percentage }}">Probability of Adverse Events</p>
+        <p>Based on personal and clinical trial information, the probability of encountering any adverse events is: {{ percentage }}%</p>
         <progress max="100" value="{{ percentage }}" class="html5">
             <div class="progress-bar">
                 <span style="width: 100%">100%</span>
             </div>
         </progress>
-        <p>Recommendation</p>
-        <table border="1" id="results">
-            <tr>
-                {% for columnname in columnNames %}
-                    <th>  {{ columnname }}</th>
-                {% endfor %}
-            </tr>
-            {% for attributes in attributeLine %}
+        {% if attributeLine %}
+            <p>Based on personal information, we recommend some clinical trials similar to your condition, and highlight
+                all possible adverse events you might suffer.</p>
+            <table border="1" id="results">
                 <tr>
-                    {% for row in attributes %}
-                        <td>  {{ row }}</td>
+                    {% for columnname in columnNames %}
+                        <th>  {{ columnname }}</th>
                     {% endfor %}
                 </tr>
-            {% endfor %}
+                {% for attributes in attributeLine %}
+                    <tr>
+                        {% for row in attributes %}
+                            <td>  {{ row }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
 
-        </table>
+            </table>
+        {% else %}
+            <p>There is no related clinical trial based on the information you provide.</p>
+        {% endif %}
     {% endif %}
     <script src="../../static/js/dropdown.js" type="text/javascript"></script>
 {% endblock %}

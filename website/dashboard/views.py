@@ -5,6 +5,13 @@ import numpy as np
 from dashboard.ConnectSagemaker import invoke_sagemake_endpoint
 from decimal import getcontext, Decimal
 
+unique_countries = []
+unique_conditions = []
+unique_interventions = []
+cursor = connect(aws_access_key_id=os.environ["accessKey"],
+                 aws_secret_access_key=os.environ["secretKey"],
+                 s3_staging_dir='s3://aws-athena-query-results-565635975808-us-east-2/',
+                 region_name='us-east-2').cursor()
 
 
 def index(request):
@@ -44,16 +51,20 @@ def getColumnName(tablename):
 # Create your views here.
 
 def home(request):
-    unique_condtion = np.load('dashboard/templates/npy/conditions_catagories.npy')
-    unique_countries = np.load('dashboard/templates/npy/countries_catagories.npy')
-    unique_interventions = np.load('dashboard/templates/npy/interventions_catagories.npy')
+    global unique_countries, unique_conditions, unique_interventions, cursor
+    if len(unique_countries) == 0:
+        unique_conditions = np.load('dashboard/templates/npy/conditions_catagories.npy')
+        unique_countries = np.load('dashboard/templates/npy/countries_catagories.npy')
+        unique_interventions = np.load('dashboard/templates/npy/interventions_catagories.npy')
     if request.method == "GET":
-        return render(request, 'dashboard/patient-home.html', {"show": False, "conditions" : unique_condtion, "countries" : unique_countries, "interventions" : unique_interventions})
+        return render(request, 'dashboard/patient-home.html',
+                      {"show": False, "conditions": unique_conditions, "countries": unique_countries,
+                       "interventions": unique_interventions})
     if request.method == 'POST':
-        cursor = connect(aws_access_key_id=os.environ["accessKey"],
-                         aws_secret_access_key=os.environ["secretKey"],
-                         s3_staging_dir='s3://aws-athena-query-results-565635975808-us-east-2/',
-                         region_name='us-east-2').cursor()
+        # cursor = connect(aws_access_key_id=os.environ["accessKey"],
+        #                  aws_secret_access_key=os.environ["secretKey"],
+        #                  s3_staging_dir='s3://aws-athena-query-results-565635975808-us-east-2/',
+        #                  region_name='us-east-2').cursor()
 
         # if 'tablename' in request.POST:
         #     tablename = request.POST['tablename']
@@ -85,10 +96,6 @@ def home(request):
         us_facility = request.POST['us_facility']
         sponsor_num = request.POST['sponsor_num']
         vector = []
-        conditions = []
-        conditions.append(condition)
-        interventions = []
-        interventions.append(intervention)
         vector.append(int(facility_num))
         if us_facility == 'yes':
             vector.append(1)
@@ -98,18 +105,15 @@ def home(request):
         vector.append(condition)
         vector.append(intervention)
         vector.append(country)
-        print(conditions)
-        print(gender)
-        print(country)
         print(vector)
-        #build condition list
+        # build condition list
         conditionlist = "("
         for c in condition:
             conditionlist += '\''
             conditionlist += c
             conditionlist += '\''
             conditionlist += ","
-        #get rid of the last ,
+        # get rid of the last ,
         conditionlist = conditionlist[0: len(conditionlist) - 1]
         conditionlist += ')'
 
@@ -158,7 +162,7 @@ def home(request):
         print(percentage)
         percentage = Decimal(percentage).quantize(Decimal('0.00'))
 
-
         context = {"tablename": 'result table', "columnNames": columnNames, "attributeLine": attributeLine,
-                   "show": True, "percentage": percentage, "conditions" : unique_condtion, "countries" : unique_countries, "interventions" : unique_interventions}
+                   "show": True, "percentage": percentage, "conditions": unique_conditions,
+                   "countries": unique_countries, "interventions": unique_interventions}
         return render(request, 'dashboard/patient-home.html', context)
