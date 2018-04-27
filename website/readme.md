@@ -6,6 +6,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+python3 environment for running dashboard
+
 AWS account for deployment
 
 Xshell for connection
@@ -18,33 +20,56 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+To be able to run the dashboard project and make connections to aws, packages are needed to install.
 
 ```
-Give the example
+  pip install django
+  pip install boto3
+  pip install scikit-learn
+  pip install scipy
+  pip install sklearn
+  pip install PyAthena
+  pip install numpy
+  pip install awscli
 ```
 
-And repeat
+And configure local environment for using django and PyAthena, and aws account for using boto3
 
-```
-until finished
-```
+``` 
+  export accessKey='AWSAccessKeyId_HERE'
+  export secretKey='AWSSecretKey_HERE'
+  export django_access_key='Django_SECRET_KEY_HERE'
 
-End with an example of getting some data out of the system or using it for a little demo
+  aws configure
+  
+ [ enter access key and secret key in AWS account
+  the region should be us-east-2
+  the output format can be json]
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Start the server and test dashboard.
 
 ```
-Give an example
+  python3 manage.py runserver
 ```
+
+### Test on browser
+
+Open the url in browser and dive to patient page, enter the information in the page as required.
+
+```
+  Health Condition: the health condition of the patient, search and multi-selection allowed.
+  Treatment: the treatment approached conducted in the clinical trial, search and multi-selection allowed.
+```
+
+After clicking on submit button, results will be shown on the bottom of the web page. 
+
+The progress bar shows the probability of encoutering any adverse events based on the personal and clinical trial information provided. The result is retrieved from SageMaker.
+
+If there are some clinical trials which contain similar information as the user, a table will be shown as recommendation and highlights all the adverse events that might occur during the experimental process.
+
 ## Deployment
 
 1. Launch EC2 instance(ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20180306 (ami-916f59f4)) 
