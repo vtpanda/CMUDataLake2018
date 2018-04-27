@@ -11,6 +11,8 @@ To understand our sagemaker experiment, it's better to have knowledge of Python,
 ## Amazon Sagemaker:
 Amazon SageMaker is a fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. Amazon SageMaker removes all the barriers that typically slow down developers who want to use machine learning.
 
+![alt text](./images/technology_components.PNG)
+
 ## File Structure:
 data:
 - Data used for training the model and the SQL Query used to extract data from AWS Athena
@@ -36,8 +38,23 @@ Until now you already have:
 
 note: We also recommend watch [this](https://www.youtube.com/watch?v=ym7NEYEx9x4) video before trying the code.
 
+## Resource Management
+1. Notebook Instance: You may choose to stop the notebook and start it when you need it to save budget.
+2. Models: You may choose to delete your model to free some space on your S3. (Model file is not that large though).
+3. You may want to only Endpoint when you need it depend on performance requirement. for experiment purpose we mainly use t2.medium and t2.micro here. 
+4. You can also refer to [Sagemaker Pricing](https://aws.amazon.com/sagemaker/pricing/) to better control budget.
+
 # Reference:
 [AWS Sagemaker Frontpage](https://aws.amazon.com/sagemaker/?nc1=h_ls)
-pricing
+
 [AWS Sagemaker github repo](https://github.com/awslabs/amazon-sagemaker-examples)
+
 [Sagemaker Review Vedio](https://www.youtube.com/watch?v=ym7NEYEx9x4)
+
+[API References](https://docs.aws.amazon.com/sagemaker/latest/dg/API_Reference.html)
+
+# More Readings
+[Using Your Own Algorithms with Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms.html)
+
+[Using Your Own Training Algorithms](https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms-training-algo.html)
+
