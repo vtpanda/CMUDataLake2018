@@ -6,4 +6,4 @@ Explore the new Data Lake architecture for modern business analytics to show tha
 The project will also utilize the Data Lake to answer a specific question as defined by the business.
 
 ## Technology Components
-![](./images/technology_components.PNG)
+![Technology Components](./images/technology_components.PNG)
