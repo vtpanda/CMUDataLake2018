@@ -11,7 +11,7 @@ To understand our sagemaker experiment, it's better to have knowledge of Python,
 ## Amazon Sagemaker:
 Amazon SageMaker is a fully-managed platform that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. Amazon SageMaker removes all the barriers that typically slow down developers who want to use machine learning.
 
-![](./images/AWS Sagemaker components.PNG)
+![Sagemaker Components](./images/AWS_Sagemaker_components.PNG)
 
 ## File Structure:
 data:
