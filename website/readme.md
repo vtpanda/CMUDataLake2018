@@ -1,14 +1,14 @@
-# Project Title
-
-ACCT clinical data trial deployment procedure on AWS
+# ACCT clinical data trial Service Setup
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a AWS EC2 instance.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+AWS account for deployment
+Xshell for connection
+WinSCP for file transfer to EC2 instance
 
 ```
 Give examples
@@ -43,18 +43,42 @@ Explain what these tests test and why
 ```
 Give an example
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+1. launch EC2 instance(ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20180306 (ami-916f59f4)) 
+2. specify EC2 security group
+  2.1 add HTTP protocol, port number 8000, IP from anywhere.
+  2.2 add SSH protocol, port number 22
+3. Enter EC2 instance by Xshell, and install dependencies, enter the following commands
+  sudo apt-get update
+  sudo apt-get install python3
+  sudo apt-get install python-pip python-dev build-essential 
+  ```
+  if the following command does not allow, add --user at the end of the command
+  ```
+  pip install django
+  pip install scikit-learn
+  pip install scipy
+  pip install sklearn
+  pip install PyAthena
+  pup install 
+  pip install numpy
+  pip install awscli
+  aws configure
+   ```
+  enter access key and secret key in AWS account
+  the region should be us-east-2
+  the output format can be json
+  ```
+4. transfer TiberSolution Folder to instance under the directory /home/ubuntu using WinSCP
+5. enter directory /home/ubuntu/TiberSolutions/website/ 
+6. open tmux session by entering tmux in the shell
+7. make the migrations to check any missing package
+    python3 manage.py makemigrations
+7. run the server
+    python3 manage.py runserver [DNS address]:8000
+8. enter DNS address:8000 in browser, and now your website is running.    
+
 
 ## Built With
 
