@@ -14,10 +14,6 @@ Xshell for connection
 
 WinSCP for file transfer to EC2 instance
 
-```
-Give examples
-```
-
 ### Installing
 
 To be able to run the dashboard project and make connections to aws, packages are needed to install.
