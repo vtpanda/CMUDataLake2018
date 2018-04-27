@@ -45,15 +45,19 @@ Give an example
 ```
 ## Deployment
 
-1. launch EC2 instance(ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20180306 (ami-916f59f4)) 
-2. specify EC2 security group
-  2.1 add HTTP protocol, port number 8000, IP from anywhere.
-  2.2 add SSH protocol, port number 22
+1. Launch EC2 instance(ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-20180306 (ami-916f59f4)) 
+2. Specify EC2 security group
+  ```
+  add HTTP protocol, port number 8000, IP from anywhere.
+  add SSH protocol, port number 22
+  ```
 3. Enter EC2 instance by Xshell, and install dependencies, enter the following commands
+```
   sudo apt-get update
   sudo apt-get install python3
   sudo apt-get install python-pip python-dev build-essential 
   ```
+  
   if the following command does not allow, add --user at the end of the command
   ```
   pip install django
@@ -65,11 +69,12 @@ Give an example
   pip install numpy
   pip install awscli
   aws configure
-   ```
+  ```
+  
   enter access key and secret key in AWS account
   the region should be us-east-2
   the output format can be json
-  ```
+  
 4. transfer TiberSolution Folder to instance under the directory /home/ubuntu using WinSCP
 5. enter directory /home/ubuntu/TiberSolutions/website/ 
 6. open tmux session by entering tmux in the shell
