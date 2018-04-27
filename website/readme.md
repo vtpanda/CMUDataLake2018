@@ -69,20 +69,25 @@ Give an example
   pip install numpy
   pip install awscli
   aws configure
-  ```
   
-  enter access key and secret key in AWS account
+ [ enter access key and secret key in AWS account
   the region should be us-east-2
-  the output format can be json
+  the output format can be json]
+  
+  ``` 
   
 4. transfer TiberSolution Folder to instance under the directory /home/ubuntu using WinSCP
 5. enter directory /home/ubuntu/TiberSolutions/website/ 
 6. open tmux session by entering tmux in the shell
 7. make the migrations to check any missing package
+    ```
     python3 manage.py makemigrations
-7. run the server
+    ```
+8. run the server
+    ```
     python3 manage.py runserver [DNS address]:8000
-8. enter DNS address:8000 in browser, and now your website is running.    
+    ```
+9. enter DNS address:8000 in browser, and now your website is running.    
 
 
 ## Built With
