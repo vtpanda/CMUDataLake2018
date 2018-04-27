@@ -6,9 +6,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-#### AWS account for deployment
-#### Xshell for connection
-#### WinSCP for file transfer to EC2 instance
+AWS account for deployment
+
+Xshell for connection
+
+WinSCP for file transfer to EC2 instance
 
 ```
 Give examples
