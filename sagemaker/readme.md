@@ -28,7 +28,7 @@ In the following steps we will introduce how to launch a notebook instance to ho
 1. Create Notebook instance. (Steps are [here](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-setup-working-env.html))
 2. In the Notebook section, click on "open" under "Actions", this will bring you to the Jupyter notebook page.
 3. Upload the "baseline model.ipynb" in the "model" directory and "ordered_ex1_train.csv" to the Jupyter notebook.
-4. On Jupyter notebook, open the notebook, and run the [notebook code](note book link) step by step. (Description and comments inline)
+4. On Jupyter notebook, open the notebook, and run the [notebook code](https://github.com/huyingfan420/TiberSolutions/blob/master/sagemaker/model/baseline%20model.ipynb) step by step. (Description and comments inline)
 
 Until now you already have:
 1. A running Sagemaker notebook instance, you can choose to stop or delete it based on budgets and needs.
