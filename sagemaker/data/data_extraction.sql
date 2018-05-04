@@ -25,7 +25,7 @@ FROM
         ON studies.nct_id=browse_conditions.nct_id
     JOIN countries
         ON studies.nct_id=countries.nct_id
-    WHERE number_of_sae_subjects!=''
+    WHERE number_of_sae_subjects IS NOT NULL
             AND countries.name!=''
             AND number_of_facilities IS NOT NULL
             AND has_us_facility!=''
