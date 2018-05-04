@@ -7,7 +7,7 @@ from zipfile import ZipFile
 from StringIO import StringIO
 from datetime import date
 
-# # A helper function to parse the download file page and extract all the ZIP file URLs
+# A helper function to parse the download file page and extract all the ZIP file URLs
 def parse_page():
 	# Base URL for the web site
 	base_url = 'https://aact.ctti-clinicaltrials.org'
@@ -109,7 +109,7 @@ def download_data(zip_url, bucket_name):
 		in_mem_unzip_file.close()
 
 # The main routine of the script
-def main():
+def main(json_input, context):
 	# Names of the S3 buckets
 	data_bucket_name = 'tibersolution-datalake'
 	config_bucket_name = 'tibersolution-datalake-configuration'
@@ -117,8 +117,6 @@ def main():
 	key_name = 'persistent_states/downloaded_files.json'
 	# Fetch all the ZIP file URLs on the page
 	urls = set(parse_page())
-	# Set up the access secret key for AWS API services
-	setup_key()
 	# Fetch all the downloaded file names from S3
 	downloaded_files = set(get_downloaded_files_list(config_bucket_name, key_name))
 	# Find out all the files that haven't been download
@@ -129,6 +127,3 @@ def main():
 	download_data(zip_url, data_bucket_name)
 	# Update the JSON file on S3
 	update_downloaded_files_list(config_bucket_name, key_name, list(downloaded_files), zip_url)
-
-if __name__ == '__main__':
-	main()
