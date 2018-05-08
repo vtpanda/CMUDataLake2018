@@ -6,7 +6,7 @@ The storage layer of our data lake makes use of two AWS services: AWS Lambda and
 ## Setup AWS S3 Buckets
 To run the data crawler, we need to setup two AWS S3 buckets first: one for storing the actual data files and the other one for maintaining additional information to help the crawler find out new data. Both read and write access to these S3 buckets are required. There are many different ways to create buckets in AWS S3. The most intuitive one is using the AWS S3 dashboard webpage. The steps are as the following:
 
-1. Click the 'Create bucket' button.
+1. Click the 'Create bucket' button.
 2. Enter a globally unique bucket name and select a suitable region based on the expected workload.
 3. Go to the 'Set properties' tag and grant both read and write access to your account.
 4. Click the 'Create bucket' button to finish the process.
@@ -30,7 +30,7 @@ To deploy our code online as an AWS Lambda function, go to the AWS Lambda dashbo
 5. Now the function is created, but there's still no function code in the function. Select 'Upload a .ZIP file' from the drop down menu called 'Code entry type' and upload the ZIP file we create before.
 7. Click the 'Save' button. You can also click the 'Test' button on the left to test running our function. After the running completes, you should be able to see the data files in your S3 buckets.
 
-Now we have an AWS Lambda function that can download a new data file from the target website every time it runs. To automate the data crawling process, we need to make use of the CloudWatch Events. It works similarly to a job scheduler. You can setup a CloudWatch Events follow the steps below:
+Now we have an AWS Lambda function that can download a new data file from the target website every time it runs. To automate the data crawling process, we need to make use of the CloudWatch Events. It works similarly to a job scheduler. You can setup a CloudWatch Events follow the steps below:
 
 1. Go to the AWS Lambda dashboard webpage and click the function name into the function detailed page.
 2. Expand the 'Designer' tab and add a new trigger. Select 'CloudWatch Events' from the drop-down menu on the left side.
@@ -49,9 +49,9 @@ To provide a concept of 'database' in our datalake, we need to create a conceptu
 
 Once we finish creating the database, we can add tables into it. We use the crawler provided by the AWS Glue to detect the table relations in the S3 bucket automatically. Different from our data crawler that runs on AWS Lambda, which downloads the data from the target website and upload them into our S3 buckets, the crawler provided by AWS Glue will scan the S3 buckets you choose  and build meta data based on the bucket content. By default, it treats each folder in the bucket as a table. Do the following steps on the AWS Glue dashboard:
 
-1. Choose 'Tables' from the left column.
+1. Choose 'Tables' from the left column.
 2. Click the 'Add tables' button. Choose 'Add tables using a crawler'.
-3. Enter a name for the crawler. Go to 'Next'.
+3. Enter a name for the crawler. Go to 'Next'.
 4. Choose 'S3' in the 'Data store' drop-down menu.
 5. Choose 'Specified path in my account'.
 6. Enter the path of the S3 buckets and go to 'Next'
