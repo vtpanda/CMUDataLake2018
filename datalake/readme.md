@@ -17,7 +17,7 @@ Since the data crawler uses third-party packages that AWS Lambda doesn't provide
 Right now, the 'lambda\_deployment\_package' folder already contains all the packages the crawler needs and the 'lambda\_deployment\_package.zip' is a compressed file generated from the folder. If you want to use any additional package, you can do it by the following two steps:
 
 1. Install the package you need into the folder by running the following command in current folder: `pip install package_you_need -t lambda_deployment_package`
-2. Compress the folder content into a ZIP file by running the following command in current folder: `cd lambda_deployment_package && zip -r lambda_deployment_package.zip *`
+2. Compress the folder content into a ZIP file by running the following command in current folder: `cd lambda_deployment_package && zip -r ../lambda_deployment_package.zip *`
 
 Even if you don't need additional package, you may still need to change the target AWS S3 buckets in the code before you run the crawler, because right now the crawler is set to upload files to our demo buckets. In the source code, the target bucket names is assigned by two variables called 'data\_bucket\_name' and 'config\_bucket\_name' in the main function of 'daily\_run.py'. You should change that to the name of the buckets you just create. Make sure to do the second step above to compress a new ZIP file after you modify the source code.
 
@@ -69,4 +69,3 @@ After setting up the AWS Lambda crawler and AWS Glue, the storage layer of our d
 3. Type in the SQL statement we want in the editor and click 'Run query'.
 
 Besides Athena, AWS Quicksight is also a good tool for data exploration. It can provide easy visualization for our data lake.
-

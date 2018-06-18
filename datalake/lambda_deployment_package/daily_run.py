@@ -63,12 +63,12 @@ def update_downloaded_files_list(bucket_name, key_name, old_list, new_file_url):
 
 # A helper function to download a ZIP file from a specified URL
 def download_data(zip_url, bucket_name):
-	''' 
-	The ZIP file URL is in the following format: 
+	'''
+	The ZIP file URL is in the following format:
 	'https://aact.ctti-clinicaltrials.org/static/exported_files/20180201_pipe-delimited-export.zip'
-	The function will store each data file into a coresponding folder with the same name and the data 
+	The function will store each data file into a coresponding folder with the same name and the data
 	file will be renamed as the date specified in the ZIP file name, under the specified bucket.
-	e.g. Every file extracted from the ZIP file in the above URL will be store as 'tablename/20180201' 
+	e.g. Every file extracted from the ZIP file in the above URL will be store as 'tablename/20180201'
 	in the specified bucket
 	'''
 	# Extract the date from the URL
@@ -111,8 +111,8 @@ def download_data(zip_url, bucket_name):
 # The main routine of the script
 def main(json_input, context):
 	# Names of the S3 buckets
-	data_bucket_name = 'tibersolution-datalake'
-	config_bucket_name = 'tibersolution-datalake-configuration'
+	data_bucket_name = 'tiberclinicaltrials'
+	config_bucket_name = 'tiberclinicaltrialsmetadata'
 	# The key of the configuration file on S3
 	key_name = 'persistent_states/downloaded_files.json'
 	# Fetch all the ZIP file URLs on the page
